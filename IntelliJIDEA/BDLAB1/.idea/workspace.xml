@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f08cd38c-38ce-4538-8dea-4b8b824098bc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XTC5VIRu5p19XNAOG9KaRBPAfS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="BDLAB1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f08cd38c-38ce-4538-8dea-4b8b824098bc" name="Default Changelist" comment="" />
+      <created>1581060514792</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581060514792</updated>
+      <workItem from="1581060522911" duration="2422000" />
+      <workItem from="1581063269772" duration="44000" />
+      <workItem from="1581064127293" duration="2134000" />
+      <workItem from="1581082884085" duration="1894000" />
+      <workItem from="1581139440976" duration="18711000" />
+      <workItem from="1581257794777" duration="13572000" />
+      <workItem from="1581349927369" duration="39000" />
+      <workItem from="1581428071435" duration="1941000" />
+      <workItem from="1581503580172" duration="25000" />
+      <workItem from="1581664512603" duration="5378000" />
+      <workItem from="1581689633526" duration="1766000" />
+      <workItem from="1581717649781" duration="7555000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="28" key="#Project_Structure" timestamp="1581060537595">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="28" key="#Project_Structure/0.0.1366.738@0.0.1366.738" timestamp="1581060537595" />
+    <state x="275" y="28" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581062981467">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="28" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1581062981467" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1581062972455">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1581062972455" />
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1581725230313">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581725230313" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1581725230312">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581725230312" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1581725230312">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581725230312" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1581725230312">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581725230312" />
+    <state width="1323" height="335" key="GridCell.Tab.1.bottom" timestamp="1581272860521">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="335" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581272860521" />
+    <state width="1323" height="335" key="GridCell.Tab.1.center" timestamp="1581272860521">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="335" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1581272860521" />
+    <state width="1323" height="335" key="GridCell.Tab.1.left" timestamp="1581272860521">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="335" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1581272860521" />
+    <state width="1323" height="335" key="GridCell.Tab.1.right" timestamp="1581272860521">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="335" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1581272860521" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1581064428373">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.738@0.0.1366.738" timestamp="1581064428373" />
+    <state x="186" y="15" key="SettingsEditor" timestamp="1581664601686">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="186" y="15" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1581664601686" />
+    <state x="378" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1581689665564">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="378" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1581689665564" />
+    <state x="245" y="105" width="876" height="603" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581269621166">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="245" y="105" width="876" height="603" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.738@0.0.1366.738" timestamp="1581269621166" />
+    <state x="58" y="0" key="new project wizard" timestamp="1581064417157">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="58" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1581064417157" />
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1581083696058">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="389" y="0" key="refactoring.ChangeSignatureDialog/0.0.1366.738@0.0.1366.738" timestamp="1581083696058" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1581270045927">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1581270045927" />
+  </component>
+</project>
