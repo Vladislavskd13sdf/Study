@@ -1,0 +1,112 @@
+Interrupt Vectors
+00000 C010      RJMP	__start|__text_start
+Program Code (text area)
+FILE: E:\Projects\ImageCraft\first\first.c
+(0001) 
+(0002) #include "io8535v.h"
+(0003) void main()
+__start|__text_start:
+    00011 E5CF      LDI	R28,0x5F
+    00012 E0D2      LDI	R29,2
+    00013 BFCD      OUT	0x3D,R28
+    00014 BFDE      OUT	0x3E,R29
+    00015 51CE      SUBI	R28,0x1E
+    00016 40D0      SBCI	R29,0
+    00017 EA0A      LDI	R16,0xAA
+    00018 8308      ST	Y,R16
+    00019 2400      CLR	R0
+    0001A E6E0      LDI	R30,0x60
+    0001B E0F0      LDI	R31,0
+    0001C E010      LDI	R17,0
+    0001D 36E0      CPI	R30,0x60
+    0001E 07F1      CPC	R31,R17
+    0001F F011      BEQ	0x0022
+    00020 9201      ST	Z+,R0
+    00021 CFFB      RJMP	0x001D
+    00022 8300      ST	Z,R16
+    00023 E2E2      LDI	R30,0x22
+    00024 E0F0      LDI	R31,0
+    00025 E6A0      LDI	R26,0x60
+    00026 E0B0      LDI	R27,0
+    00027 E010      LDI	R17,0
+    00028 E000      LDI	R16,0
+    00029 BF0B      OUT	0x3B,R16
+    0002A 32E2      CPI	R30,0x22
+    0002B 07F1      CPC	R31,R17
+    0002C F021      BEQ	0x0031
+    0002D 95C8      LPM
+    0002E 9631      ADIW	R30,1
+    0002F 920D      ST	X+,R0
+    00030 CFF9      RJMP	0x002A
+    00031 D001      RCALL	_main
+_exit:
+    00032 CFFF      RJMP	_exit
+_main:
+  data                 --> R16
+    00033 EF8F      LDI	R24,0xFF
+    00034 BB84      OUT	0x14,R24
+    00035 C003      RJMP	0x0039
+(0004) {
+(0005)  	 char data;
+(0006) 	 DDRC=0b11111111;
+(0007) 	 while(1)
+(0008) 	 {
+(0009) 	  		 data=PIND;
+    00036 B300      IN	R16,0x10
+(0010) 			 data=data+23;
+    00037 5E09      SUBI	R16,0xE9
+(0011) 			 PORTC=data;
+(0012) 			 
+(0013) 	 }
+(0014) }
+(0015) 
+(0016) 
+(0017) 
+(0018) 
+(0019) 
+(0020) 
+(0021) 
+(0022) 
+(0023) /*#include <io8535v.h>
+(0024) 
+(0025) //header file
+(0026) #include <header_file.hS>
+(0027) 
+(0028) //global variable in declarate as SRAM
+(0029) #pragma abs_address:0x1000
+(0030) unsigned LCD_control_register
+(0031) #pragma end_abs_address
+(0032) 
+(0033) //#pragme interrupt_handler vector_:_ to create interrupt functions 
+(0034) #pragma interrupt_handler int0_isr:2
+(0035) 
+(0036) //assembler code
+(0037) #asm("asm_code");
+(0038) 
+(0039) 
+(0040) 
+(0041) 
+(0042) int strlen(const char[]);
+(0043) 
+(0044) 
+(0045) const double e=2.718281828;
+(0046) const char msg[]="Error number: ";
+(0047) void main()
+(0048) {
+(0049)  	 int i;//correct declaration
+(0050)  	 DDRD=0xff;//setting up all pins of port D to the output
+(0051) 	 PORTD=0b10101010;//output of the combination 10101010 to the port
+(0052) 	 int j,k;//uncorrect declaration
+(0053) 	 
+(0054) }
+(0055) 
+(0056) void int0_isr(void)
+(0057) {
+(0058)  	 //external interrupt on INT0
+(0059) }
+(0060) 
+(0061) */
+FILE: <library>
+    00038 BB05      OUT	0x15,R16
+    00039 CFFC      RJMP	0x0036
+    0003A 9508      RET

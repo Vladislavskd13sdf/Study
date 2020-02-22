@@ -1,0 +1,321 @@
+                        .module ticker.c
+                        .area text(rom, con, rel)
+ 0000                   .dbfile ticker.c
+ 0000                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 0000                   .dbfunc e delay _delay fV
+ 0000           ;             c1 -> R20,R21
+ 0000           ;             c2 -> R22,R23
+ 0000           ;             ms -> R16,R17
+                        .even
+ 0000           _delay::
+ 0000 0E940000          xcall push_xgsetF000
+ 0004                   .dbline -1
+ 0004                   .dbline 5
+ 0004           ; #include "iom128v.h"
+ 0004           ; #include "macros.h"
+ 0004           ; 
+ 0004           ; void delay(int ms)
+ 0004           ; {
+ 0004                   .dbline 7
+ 0004           ;  int c1, c2;
+ 0004           ;  for(c1=0;c1<ms;c1++)
+ 0004 4427              clr R20
+ 0006 5527              clr R21
+ 0008 0BC0              xjmp L5
+ 000A           L2:
+ 000A                   .dbline 8
+ 000A           ;   for(c2=0;c2<970;c2++) NOP();
+ 000A 6627              clr R22
+ 000C 7727              clr R23
+ 000E           L6:
+ 000E                   .dbline 8
+ 000E 0000              nop
+ 0010           L7:
+ 0010                   .dbline 8
+ 0010 6F5F              subi R22,255  ; offset = 1
+ 0012 7F4F              sbci R23,255
+ 0014                   .dbline 8
+ 0014 6A3C              cpi R22,202
+ 0016 E3E0              ldi R30,3
+ 0018 7E07              cpc R23,R30
+ 001A CCF3              brlt L6
+ 001C           X0:
+ 001C           L3:
+ 001C                   .dbline 7
+ 001C 4F5F              subi R20,255  ; offset = 1
+ 001E 5F4F              sbci R21,255
+ 0020           L5:
+ 0020                   .dbline 7
+ 0020 4017              cp R20,R16
+ 0022 5107              cpc R21,R17
+ 0024 94F3              brlt L2
+ 0026           X1:
+ 0026                   .dbline -2
+ 0026           L1:
+ 0026                   .dbline 0 ; func end
+ 0026 0C940000          xjmp pop_xgsetF000
+ 002A                   .dbsym r c1 20 I
+ 002A                   .dbsym r c2 22 I
+ 002A                   .dbsym r ms 16 I
+ 002A                   .dbend
+ 002A                   .dbfunc e segments _segments fV
+ 002A           ;              j -> R18,R19
+ 002A           ;              i -> R16,R17
+                        .even
+ 002A           _segments::
+ 002A                   .dbline -1
+ 002A                   .dbline 12
+ 002A           ; }
+ 002A           ; 
+ 002A           ; void segments(int i, int j)
+ 002A           ; {
+ 002A                   .dbline 13
+ 002A           ;  PORTC=i;
+ 002A 05BB              out 0x15,R16
+ 002C                   .dbline 14
+ 002C           ;  PORTA=~j;
+ 002C 1901              movw R2,R18
+ 002E 2094              com R2
+ 0030 3094              com R3
+ 0032 2BBA              out 0x1b,R2
+ 0034                   .dbline -2
+ 0034           L10:
+ 0034                   .dbline 0 ; func end
+ 0034 0895              ret
+ 0036                   .dbsym r j 18 I
+ 0036                   .dbsym r i 16 I
+ 0036                   .dbend
+                        .area data(ram, con, rel)
+ 0000                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 0000           L12:
+ 0000                   .blkb 2
+                        .area idata
+ 0000 0000              .byte 0,0
+                        .area data(ram, con, rel)
+ 0002                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 0002                   .blkb 2
+                        .area idata
+ 0002 0000              .byte 0,0
+                        .area data(ram, con, rel)
+ 0004                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 0004                   .blkb 2
+                        .area idata
+ 0004 7760              .byte 'w,96
+                        .area data(ram, con, rel)
+ 0006                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 0006                   .blkb 2
+                        .area idata
+ 0006 3E7A              .byte 62,'z
+                        .area data(ram, con, rel)
+ 0008                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 0008                   .blkb 2
+                        .area idata
+ 0008 695B              .byte 'i,91
+                        .area data(ram, con, rel)
+ 000A                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 000A                   .blkb 2
+                        .area idata
+ 000A 5F70              .byte 95,'p
+                        .area data(ram, con, rel)
+ 000C                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 000C                   .blkb 2
+                        .area idata
+ 000C 7F7B              .byte 127,123
+                        .area data(ram, con, rel)
+ 000E                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 000E                   .blkb 2
+                        .area idata
+ 000E 7D4F              .byte 125,'O
+                        .area data(ram, con, rel)
+ 0010                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 0010                   .blkb 2
+                        .area idata
+ 0010 176E              .byte 23,'n
+                        .area data(ram, con, rel)
+ 0012                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 0012                   .blkb 2
+                        .area idata
+ 0012 1F1D              .byte 31,29
+                        .area data(ram, con, rel)
+ 0014                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 0014                   .blkb 2
+                        .area idata
+ 0014 0000              .byte 0,0
+                        .area data(ram, con, rel)
+ 0016                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 0016                   .blkb 2
+                        .area idata
+ 0016 0000              .byte 0,0
+                        .area data(ram, con, rel)
+ 0018                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 0018           L13:
+ 0018                   .blkb 2
+                        .area idata
+ 0018 0607              .byte 6,7
+                        .area data(ram, con, rel)
+ 001A                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 001A                   .blkb 2
+                        .area idata
+ 001A 0102              .byte 1,2
+                        .area data(ram, con, rel)
+ 001C                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+                        .area text(rom, con, rel)
+ 0036                   .dbfile E:\Projects\APSOI\imagecraft\task_3\ticker.c
+ 0036                   .dbfunc e main _main fV
+ 0036           ;              z -> <dead>
+ 0036           ;           zero -> R10
+ 0036           ;       idecator -> y+24
+ 0036           ;            seg -> y+0
+ 0036           ;              y -> R20
+ 0036           ;              x -> R22
+                        .even
+ 0036           _main::
+ 0036 6C97              sbiw R28,28
+ 0038                   .dbline -1
+ 0038                   .dbline 18
+ 0038           ; }
+ 0038           ; 
+ 0038           ; void main()
+ 0038           ; {
+ 0038                   .dbline 19
+ 0038           ;  char const zero=0b00000000;
+ 0038 AA24              clr R10
+ 003A                   .dbline 20
+ 003A           ;  char seg[24]={0b00000000,0b00000000,0b00000000,0b00000000,0b01110111, 0b01100000, 0b00111110, 0b01111010, 0b01101001, 0b01011011, 0b01011111, 0b01110000,    0b01111111, 0b01111011, 0b01111101, 0b01001111, 0b00010111, 0b01101110, 0b00011111, 0b00011101,0b00000000,0b00000000,0b00000000,0b00000000};
+ 003A 80E0              ldi R24,<L12
+ 003C 90E0              ldi R25,>L12
+ 003E FE01              movw R30,R28
+ 0040 08E1              ldi R16,24
+ 0042 10E0              ldi R17,0
+ 0044 FA93              st -y,R31
+ 0046 EA93              st -y,R30
+ 0048 9A93              st -y,R25
+ 004A 8A93              st -y,R24
+ 004C 0E940000          xcall asgnblk
+ 0050                   .dbline 21
+ 0050           ;  char idecator[4]={6,7,1,2};
+ 0050 80E0              ldi R24,<L13
+ 0052 90E0              ldi R25,>L13
+ 0054 FE01              movw R30,R28
+ 0056 7896              adiw R30,24
+ 0058 04E0              ldi R16,4
+ 005A 10E0              ldi R17,0
+ 005C FA93              st -y,R31
+ 005E EA93              st -y,R30
+ 0060 9A93              st -y,R25
+ 0062 8A93              st -y,R24
+ 0064 0E940000          xcall asgnblk
+ 0068                   .dbline 23
+ 0068           ;  char x,y,z;
+ 0068           ;  DDRC=0b10000111;    
+ 0068 87E8              ldi R24,135
+ 006A 84BB              out 0x14,R24
+ 006C                   .dbline 24
+ 006C           ;  DDRA=0xFF;              
+ 006C 8FEF              ldi R24,255
+ 006E 8ABB              out 0x1a,R24
+ 0070                   .dbline 25
+ 0070           ;  DDRG=0x01;              
+ 0070 81E0              ldi R24,1
+ 0072 80936400          sts 100,R24
+ 0076                   .dbline 26
+ 0076           ;  PORTG=0;                
+ 0076 2224              clr R2
+ 0078 20926500          sts 101,R2
+ 007C                   .dbline 27
+ 007C           ;  PORTA=0;                
+ 007C 2BBA              out 0x1b,R2
+ 007E                   .dbline 28
+ 007E           ;  PORTC=0;                
+ 007E 25BA              out 0x15,R2
+ 0080                   .dbline 29
+ 0080           ;  PORTC=5;                
+ 0080 85E0              ldi R24,5
+ 0082 85BB              out 0x15,R24
+ 0084 21C0              xjmp L15
+ 0086           L14:
+ 0086                   .dbline 31
+ 0086           ;  while(1)
+ 0086           ;  {
+ 0086                   .dbline 32
+ 0086           ;   for(y=0;y<20;y++)
+ 0086 4427              clr R20
+ 0088 1DC0              xjmp L20
+ 008A           L17:
+ 008A                   .dbline 33
+ 008A           ;   {
+ 008A                   .dbline 34
+ 008A           ;    for(x=0;x<4;x++)
+ 008A 6627              clr R22
+ 008C 15C0              xjmp L24
+ 008E           L21:
+ 008E                   .dbline 35
+ 008E           ;    {
+ 008E                   .dbline 36
+ 008E           ;       PORTC=idecator[x];
+ 008E CE01              movw R24,R28
+ 0090 4896              adiw R24,24
+ 0092 E62F              mov R30,R22
+ 0094 FF27              clr R31
+ 0096 E80F              add R30,R24
+ 0098 F91F              adc R31,R25
+ 009A 2080              ldd R2,z+0
+ 009C 25BA              out 0x15,R2
+ 009E                   .dbline 37
+ 009E           ;       PORTA=~seg[y+x];
+ 009E 262E              mov R2,R22
+ 00A0 3324              clr R3
+ 00A2 E42F              mov R30,R20
+ 00A4 FF27              clr R31
+ 00A6 E20D              add R30,R2
+ 00A8 F31D              adc R31,R3
+ 00AA CE01              movw R24,R28
+ 00AC E80F              add R30,R24
+ 00AE F91F              adc R31,R25
+ 00B0 2080              ldd R2,z+0
+ 00B2 2094              com R2
+ 00B4 2BBA              out 0x1b,R2
+ 00B6                   .dbline 38
+ 00B6           ;    }
+ 00B6           L22:
+ 00B6                   .dbline 34
+ 00B6 6395              inc R22
+ 00B8           L24:
+ 00B8                   .dbline 34
+ 00B8 6430              cpi R22,4
+ 00BA 48F3              brlo L21
+ 00BC           X2:
+ 00BC                   .dbline 39
+ 00BC           ;    delay(200);
+ 00BC 08EC              ldi R16,200
+ 00BE 10E0              ldi R17,0
+ 00C0 9FDF              xcall _delay
+ 00C2                   .dbline 40
+ 00C2           ;   }
+ 00C2           L18:
+ 00C2                   .dbline 32
+ 00C2 4395              inc R20
+ 00C4           L20:
+ 00C4                   .dbline 32
+ 00C4 4431              cpi R20,20
+ 00C6 08F3              brlo L17
+ 00C8           X3:
+ 00C8                   .dbline 41
+ 00C8           ;  }
+ 00C8           L15:
+ 00C8                   .dbline 30
+ 00C8 DECF              xjmp L14
+ 00CA           X4:
+ 00CA                   .dbline -2
+ 00CA           L11:
+ 00CA                   .dbline 0 ; func end
+ 00CA 6C96              adiw R28,28
+ 00CC 0895              ret
+ 00CE                   .dbsym l z 1 c
+ 00CE                   .dbsym r zero 10 c
+ 00CE                   .dbsym l idecator 24 A[4:4]c
+ 00CE                   .dbsym l seg 0 A[24:24]c
+ 00CE                   .dbsym r y 20 c
+ 00CE                   .dbsym r x 22 c
+ 00CE                   .dbend
+ 00CE           ; }

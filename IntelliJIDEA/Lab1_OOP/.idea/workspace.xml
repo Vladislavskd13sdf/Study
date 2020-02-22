@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1473f7ce-2898-4ae0-a05e-4fad8478c264" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="lab1" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XNvrq8A5OkwVua7qcvQqHuFrdg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BDLAB1" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RunManager">
+    <configuration name="DataMath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataMath" />
+      <module name="Lab1_OOP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DataMath" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1473f7ce-2898-4ae0-a05e-4fad8478c264" name="Default Changelist" comment="" />
+      <created>1580899569463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580899569463</updated>
+      <workItem from="1580899581229" duration="6322000" />
+      <workItem from="1580915113606" duration="1104000" />
+      <workItem from="1581052080849" duration="1170000" />
+      <workItem from="1581060203386" duration="83000" />
+      <workItem from="1581422558105" duration="2045000" />
+      <workItem from="1581504728711" duration="1112000" />
+      <workItem from="1581519848061" duration="2630000" />
+      <workItem from="1581664397745" duration="100000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1580904967643">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1580904967643" />
+    <state x="441" y="240" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1580903498239">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="441" y="240" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1580903498239" />
+    <state x="462" y="111" key="FileChooserDialogImpl" timestamp="1581664505040">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="462" y="111" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1581664505040" />
+    <state width="661" height="182" key="GridCell.Tab.0.bottom" timestamp="1581522524654">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="182" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581522524654" />
+    <state width="661" height="182" key="GridCell.Tab.0.center" timestamp="1581522524654">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="182" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581522524654" />
+    <state width="661" height="182" key="GridCell.Tab.0.left" timestamp="1581522524638">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="182" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581522524638" />
+    <state width="661" height="182" key="GridCell.Tab.0.right" timestamp="1581522524654">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="661" height="182" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581522524654" />
+    <state x="173" y="22" key="SettingsEditor" timestamp="1581522262750">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="173" y="22" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1581522262750" />
+    <state width="498" height="398" key="SwitcherDM" timestamp="1580903855198">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="498" height="398" key="SwitcherDM/0.0.1366.738@0.0.1366.738" timestamp="1580903855198" />
+    <state x="378" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1581664393948">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="378" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1581664393948" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1580903817579">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1366.738@0.0.1366.738" timestamp="1580903817579" />
+    <state x="65" y="0" key="new project wizard" timestamp="1580916266962">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1580916266962" />
+    <state x="324" y="95" width="700" height="530" key="recent.locations.popup" timestamp="1580903861781">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="324" y="95" width="700" height="530" key="recent.locations.popup/0.0.1366.738@0.0.1366.738" timestamp="1580903861781" />
+  </component>
+</project>

@@ -1,0 +1,23 @@
+XL
+H 1 areas 1 global symbols
+M task_1.c
+A text size 14 flags 0
+dbfile task_1.c
+dbfile E:\Projects\Microproccesorss\Lab1\imagectaft\task_1\task_1.c
+dbfunc e main 0 fV
+dbsym l data 1 c
+dbline FFFFFFFF 0
+dbline 3 0
+dbline 5 0
+dbline 6 4
+dbline 8 8
+dbline 9 8
+dbline A 10
+dbline 7 10
+dbline FFFFFFFE 12
+dbline 0 12
+S _main Def0000
+T 00 00 8F EF 84 BB 87 BB 04 C0 20 B2 36 B2 32 0C
+R 00 00 00 00
+T 0E 00 35 BA FB CF 08 95
+R 00 00 00 00

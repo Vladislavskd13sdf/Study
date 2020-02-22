@@ -1,0 +1,24 @@
+XL
+H 1 areas 1 global symbols
+M first.c
+A text size 10 flags 0
+dbfile first.c
+dbfile E:\Projects\ImageCraft\first\first.c
+dbfunc e main 0 fV
+dbsym r data 10 c
+dbline FFFFFFFF 0
+dbline 4 0
+dbline 6 0
+dbline 8 6
+dbline 9 6
+dbline A 8
+dbline B A
+dbline D C
+dbline 7 C
+dbline FFFFFFFE E
+dbline 0 E
+S _main Def0000
+T 00 00 8F EF 84 BB 03 C0 00 B3 09 5E 05 BB FC CF
+R 00 00 00 00
+T 0E 00 08 95
+R 00 00 00 00

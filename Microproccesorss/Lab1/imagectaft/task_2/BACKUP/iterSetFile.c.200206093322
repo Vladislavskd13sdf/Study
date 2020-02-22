@@ -1,0 +1,27 @@
+#include "io8535v.h"
+#include "macros.h"
+#include "stdio.h"
+void delay(int t)
+{
+	int c1,c2;
+	for(c1=0;c1<t;c1++)
+    {
+    	for(c2=0;c2<970;c2++)
+        {
+        	NOP();
+        }
+    }
+}
+void main()
+{
+	DDRC=0b11111111;
+	char portc=0b00000001;
+    while(1)
+    {
+    	PORTC=portc<<1;
+        delay(100);
+
+    }
+    
+    
+}

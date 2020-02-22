@@ -1,0 +1,308 @@
+Interrupt Vectors
+00000 940C 004A JMP	__start|__text_start
+Program Code (text area)
+FILE: E:\Projects\APSOI\imagecraft\task_4\4321.c
+(0001) #include "iom128v.h"
+(0002) #include "macros.h"
+(0003) 
+(0004) void delay(int ms)
+__start|__text_start:
+    0004A EFCF      LDI	R28,0xFF
+    0004B E1D0      LDI	R29,0x10
+    0004C BFCD      OUT	0x3D,R28
+    0004D BFDE      OUT	0x3E,R29
+    0004E 51CE      SUBI	R28,0x1E
+    0004F 40D0      SBCI	R29,0
+    00050 EA0A      LDI	R16,0xAA
+    00051 8308      ST	Y,R16
+    00052 2400      CLR	R0
+    00053 E0E8      LDI	R30,0x8
+    00054 E0F1      LDI	R31,1
+    00055 E011      LDI	R17,1
+    00056 30E8      CPI	R30,0x8
+    00057 07F1      CPC	R31,R17
+    00058 F011      BEQ	0x005B
+    00059 9201      ST	Z+,R0
+    0005A CFFB      RJMP	0x0056
+    0005B 8300      ST	Z,R16
+    0005C E8EC      LDI	R30,0x8C
+    0005D E0F0      LDI	R31,0
+    0005E E0A0      LDI	R26,0
+    0005F E0B1      LDI	R27,1
+    00060 E010      LDI	R17,0
+    00061 E000      LDI	R16,0
+    00062 BF0B      OUT	0x3B,R16
+    00063 39E4      CPI	R30,0x94
+    00064 07F1      CPC	R31,R17
+    00065 F021      BEQ	0x006A
+    00066 95C8      LPM
+    00067 9631      ADIW	R30,1
+    00068 920D      ST	X+,R0
+    00069 CFF9      RJMP	0x0063
+    0006A 940E 0082 CALL	_main
+_exit:
+    0006C CFFF      RJMP	_exit
+_delay:
+  c1                   --> R20
+  c2                   --> R22
+  ms                   --> R16
+    0006D 940E 00F3 CALL	push_xgsetF000
+    0006F 2744      CLR	R20
+    00070 2755      CLR	R21
+    00071 C00B      RJMP	0x007D
+(0005) {
+(0006)  int c1, c2;
+(0007)  for(c1=0;c1<ms;c1++)
+(0008)   for(c2=0;c2<970;c2++) NOP();
+    00072 2766      CLR	R22
+    00073 2777      CLR	R23
+    00074 0000      NOP
+    00075 5F6F      SUBI	R22,0xFF
+    00076 4F7F      SBCI	R23,0xFF
+    00077 3C6A      CPI	R22,0xCA
+    00078 E0E3      LDI	R30,3
+    00079 077E      CPC	R23,R30
+    0007A F3CC      BLT	0x0074
+    0007B 5F4F      SUBI	R20,0xFF
+    0007C 4F5F      SBCI	R21,0xFF
+    0007D 1740      CP	R20,R16
+    0007E 0751      CPC	R21,R17
+    0007F F394      BLT	0x0072
+    00080 940C 00F8 JMP	pop_xgsetF000
+_main:
+  seg                  --> Y,+4
+  PC                   --> Y,+0
+  cnt_a                --> R20
+  cnt_b                --> R10
+    00082 9728      SBIW	R28,0x8
+(0009) }
+(0010) 
+(0011) void main()
+(0012) {
+(0013)   char cnt_a, cnt_b;
+(0014)   char PC[4]={6,7,1,2};
+    00083 E080      LDI	R24,0
+    00084 E091      LDI	R25,1
+    00085 01FE      MOVW	R30,R28
+    00086 E004      LDI	R16,4
+    00087 E010      LDI	R17,0
+    00088 93FA      ST	-Y,R31
+    00089 93EA      ST	-Y,R30
+    0008A 939A      ST	-Y,R25
+    0008B 938A      ST	-Y,R24
+    0008C 940E 00FD CALL	asgnblk
+(0015)   char seg[4]={0b01100000,0b00111110,0b01111010,0b01101001};
+    0008E E084      LDI	R24,4
+    0008F E091      LDI	R25,1
+    00090 01FE      MOVW	R30,R28
+    00091 9634      ADIW	R30,4
+    00092 E004      LDI	R16,4
+    00093 E010      LDI	R17,0
+    00094 93FA      ST	-Y,R31
+    00095 93EA      ST	-Y,R30
+    00096 939A      ST	-Y,R25
+    00097 938A      ST	-Y,R24
+    00098 940E 00FD CALL	asgnblk
+(0016)   
+(0017)   DDRC=0b10001111;
+    0009A E88F      LDI	R24,0x8F
+    0009B BB84      OUT	0x14,R24
+(0018)   DDRG=0b00000001;
+    0009C E081      LDI	R24,1
+    0009D 9380 0064 STS	0x64,R24
+(0019)   DDRA=0b11111111;
+    0009F EF8F      LDI	R24,0xFF
+    000A0 BB8A      OUT	0x1A,R24
+    000A1 C04E      RJMP	0x00F0
+(0020)   while(1)
+(0021)   {
+(0022)    PORTA=0xff;
+    000A2 EF8F      LDI	R24,0xFF
+    000A3 BB8B      OUT	0x1B,R24
+(0023)    /*PORTC=2;
+(0024)    PORTC=1;
+(0025)    PORTC=7;
+(0026)    PORTC=6;*/
+(0027)    for(cnt_a=0;cnt_a<4;cnt_a++)
+    000A4 2744      CLR	R20
+    000A5 C047      RJMP	0x00ED
+(0028)    {
+(0029)       for(cnt_b=0;cnt_b<(4-cnt_a);cnt_b++)
+    000A6 24AA      CLR	R10
+    000A7 C03F      RJMP	0x00E7
+(0030)       {
+(0031)          if(cnt_b==0)
+    000A8 20AA      TST	R10
+    000A9 F499      BNE	0x00BD
+(0032)       	 {
+(0033)            PORTC=PC[3];//
+    000AA 802B      LDD	R2,Y+3
+    000AB BA25      OUT	0x15,R2
+(0034)        	   PORTA=~seg[3-cnt_a];
+    000AC 2E24      MOV	R2,R20
+    000AD 2433      CLR	R3
+    000AE E0E3      LDI	R30,3
+    000AF E0F0      LDI	R31,0
+    000B0 19E2      SUB	R30,R2
+    000B1 09F3      SBC	R31,R3
+    000B2 01CE      MOVW	R24,R28
+    000B3 9604      ADIW	R24,4
+    000B4 0FE8      ADD	R30,R24
+    000B5 1FF9      ADC	R31,R25
+    000B6 8020      LD	R2,Z
+    000B7 9420      COM	R2
+    000B8 BA2B      OUT	0x1B,R2
+(0035) 		   delay(500);
+    000B9 EF04      LDI	R16,0xF4
+    000BA E011      LDI	R17,1
+    000BB DFB1      RCALL	_delay
+(0036)       	 }
+    000BC C029      RJMP	0x00E6
+(0037)       	 else
+(0038)       	 { 
+(0039)            PORTC=PC[3-cnt_b];
+    000BD 2C2A      MOV	R2,R10
+    000BE 2433      CLR	R3
+    000BF E0E3      LDI	R30,3
+    000C0 E0F0      LDI	R31,0
+    000C1 19E2      SUB	R30,R2
+    000C2 09F3      SBC	R31,R3
+    000C3 01CE      MOVW	R24,R28
+    000C4 0FE8      ADD	R30,R24
+    000C5 1FF9      ADC	R31,R25
+    000C6 8020      LD	R2,Z
+    000C7 BA25      OUT	0x15,R2
+(0040)        	   PORTA=~seg[3-cnt_a];
+    000C8 2E24      MOV	R2,R20
+    000C9 2433      CLR	R3
+    000CA E0E3      LDI	R30,3
+    000CB E0F0      LDI	R31,0
+    000CC 19E2      SUB	R30,R2
+    000CD 09F3      SBC	R31,R3
+    000CE 01CE      MOVW	R24,R28
+    000CF 9604      ADIW	R24,4
+    000D0 0FE8      ADD	R30,R24
+    000D1 1FF9      ADC	R31,R25
+    000D2 8020      LD	R2,Z
+    000D3 9420      COM	R2
+    000D4 BA2B      OUT	0x1B,R2
+(0041)        	   PORTC=PC[3-cnt_b+1];
+    000D5 2C2A      MOV	R2,R10
+    000D6 2433      CLR	R3
+    000D7 E0E3      LDI	R30,3
+    000D8 E0F0      LDI	R31,0
+    000D9 19E2      SUB	R30,R2
+    000DA 09F3      SBC	R31,R3
+    000DB 01CE      MOVW	R24,R28
+    000DC 9601      ADIW	R24,1
+    000DD 0FE8      ADD	R30,R24
+    000DE 1FF9      ADC	R31,R25
+    000DF 8020      LD	R2,Z
+    000E0 BA25      OUT	0x15,R2
+(0042)            PORTA=0xff;
+    000E1 EF8F      LDI	R24,0xFF
+    000E2 BB8B      OUT	0x1B,R24
+(0043)            delay(500);
+(0044)       	 }
+(0045)       }
+(0046)    }
+(0047)   }
+(0048) }
+(0049) 
+(0050) /*#include "iom128v.h"
+(0051) #include "macros.h"
+(0052) 
+(0053) void delay(int ms)
+(0054) {
+(0055)  int c1, c2;
+(0056)  for(c1=0;c1<ms;c1++)
+(0057)   for(c2=0;c2<970;c2++) NOP();
+(0058) }
+(0059) 
+(0060) void segments(int i, int j)
+(0061) {
+(0062)  PORTC=i;
+(0063)  PORTA=~j;
+(0064) }
+(0065) 
+(0066) void main()
+(0067) {
+(0068)  char const zero=0b00000000;
+(0069)  char seg[11]={0b00000000,0b00000000,0b00000000,0b00000000,0b01101001,0b00000000,0b00000000,0b01111010,0b00000000,0b00111110, 0b01100000};
+(0070)  char idecator[4]={6,7,1,2};
+(0071)  char x,y,z;
+(0072)  DDRC=0b10000111;    
+(0073)  DDRA=0xFF;		   
+(0074)  DDRG=0x01;		   
+(0075)  PORTG=0;	 	   
+(0076)  PORTA=0;		   
+(0077)  PORTC=0;		   
+(0078)  PORTC=5;	
+(0079)  while(1)
+(0080)  {
+(0081)   for(y=0;y<8;y++)
+(0082)   {
+(0083)    for(x=0;x<4-z;x++)
+(0084)    {
+(0085)    	PORTC=idecator[x];
+(0086) 	PORTA=~seg[y+x];
+(0087)    }
+(0088)    z++;
+(0089)    delay(500);
+(0090)   }
+(0091)  }
+(0092) }*/
+FILE: <library>
+    000E3 EF04      LDI	R16,0xF4
+    000E4 E011      LDI	R17,1
+    000E5 DF87      RCALL	_delay
+    000E6 94A3      INC	R10
+    000E7 E084      LDI	R24,4
+    000E8 1B84      SUB	R24,R20
+    000E9 16A8      CP	R10,R24
+    000EA F408      BCC	0x00EC
+    000EB CFBC      RJMP	0x00A8
+    000EC 9543      INC	R20
+    000ED 3044      CPI	R20,4
+    000EE F408      BCC	0x00F0
+    000EF CFB6      RJMP	0x00A6
+    000F0 CFB1      RJMP	0x00A2
+    000F1 9628      ADIW	R28,0x8
+    000F2 9508      RET
+push_xgsetF000:
+    000F3 937A      ST	-Y,R23
+    000F4 936A      ST	-Y,R22
+    000F5 935A      ST	-Y,R21
+    000F6 934A      ST	-Y,R20
+    000F7 9508      RET
+pop_xgsetF000:
+    000F8 9149      LD	R20,Y+
+    000F9 9159      LD	R21,Y+
+    000FA 9169      LD	R22,Y+
+    000FB 9179      LD	R23,Y+
+    000FC 9508      RET
+asgnblk:
+    000FD 93AA      ST	-Y,R26
+    000FE 93BA      ST	-Y,R27
+    000FF 93EA      ST	-Y,R30
+    00100 93FA      ST	-Y,R31
+    00101 920A      ST	-Y,R0
+    00102 81AF      LDD	R26,Y+7
+    00103 85B8      LDD	R27,Y+8
+    00104 81ED      LDD	R30,Y+5
+    00105 81FE      LDD	R31,Y+6
+    00106 3000      CPI	R16,0
+    00107 0701      CPC	R16,R17
+    00108 F029      BEQ	0x010E
+    00109 9001      LD	R0,Z+
+    0010A 920D      ST	X+,R0
+    0010B 5001      SUBI	R16,1
+    0010C 4010      SBCI	R17,0
+    0010D CFF8      RJMP	0x0106
+    0010E 9009      LD	R0,Y+
+    0010F 91F9      LD	R31,Y+
+    00110 91E9      LD	R30,Y+
+    00111 91B9      LD	R27,Y+
+    00112 91A9      LD	R26,Y+
+    00113 9624      ADIW	R28,4
+    00114 9508      RET

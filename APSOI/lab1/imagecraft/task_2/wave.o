@@ -1,0 +1,151 @@
+XL
+H 3 areas 8 global symbols
+M wave.c
+S push_xgset003C Ref0000
+S push_xgsetF000 Ref0000
+S pop_xgset003C Ref0000
+S pop_xgsetF000 Ref0000
+S asgnblk Ref0000
+A text size 13A flags 0
+dbfile wave.c
+dbfile E:\Projects\APSOI\imagecraft\task_2\wave.c
+dbfunc e delay 0 fV
+dbsym r c1 14 I
+dbsym r c2 16 I
+dbsym r ms 10 I
+dbline FFFFFFFF 4
+dbline 5 4
+dbline 7 4
+dbline 8 A
+dbline 8 E
+dbline 8 10
+dbline 8 14
+dbline 7 1C
+dbline 7 20
+dbline FFFFFFFE 26
+dbline 0 26
+dbfunc e segments 2A fV
+dbsym r j A I
+dbsym r i C I
+dbline FFFFFFFF 32
+dbline C 32
+dbline D 32
+dbline E 34
+dbline F 3C
+dbline FFFFFFFE 42
+dbline 0 42
+dbfunc e main 46 fV
+dbsym l item 3 A[8:4]I
+dbsym l seg 0 A[3:3]c
+dbsym r i 14 I
+dbsym r j 16 I
+dbline FFFFFFFF 48
+dbline 13 48
+dbline 14 48
+dbline 15 5E
+dbline 17 76
+dbline 18 7A
+dbline 19 7E
+dbline 1A 84
+dbline 1B 8A
+dbline 1C 8C
+dbline 1D 8E
+dbline 1E 92
+dbline 1F 96
+dbline 20 9A
+dbline 21 9E
+dbline 22 A2
+dbline 23 A6
+dbline 25 AC
+dbline 26 AC
+dbline 27 B0
+dbline 28 B0
+dbline 29 B4
+dbline 2A B4
+dbline 2B D4
+dbline 28 D4
+dbline 28 D8
+dbline 2C E0
+dbline 2D E4
+dbline 26 E4
+dbline 26 E8
+dbline 2E F0
+dbline 2F F4
+dbline 30 F4
+dbline 31 F8
+dbline 32 F8
+dbline 33 118
+dbline 30 118
+dbline 30 11C
+dbline 34 124
+dbline 35 128
+dbline 2E 128
+dbline 2E 12C
+dbline 36 134
+dbline 24 134
+dbline FFFFFFFE 136
+dbline 0 136
+S _main Def0046
+S _delay Def0000
+S _segments Def002A
+A data size B flags 20
+dbfile E:\Projects\APSOI\imagecraft\task_2\wave.c
+A idata size B flags 0
+T 00 00 0E 94 00 00 44 27 55 27 0B C0 66 27 77 27
+R 00 00 00 00 12 04 01 00
+T 0E 00 00 00 6F 5F 7F 4F 6A 3C E3 E0 7E 07 CC F3
+R 00 00 00 00
+T 1C 00 4F 5F 5F 4F 40 17 51 07 94 F3 0C 94 00 00
+R 00 00 00 00 12 0E 03 00
+T 2A 00 0E 94 00 00 59 01 68 01 C5 BA 15 01 20 94
+R 00 00 00 00 12 04 00 00
+T 38 00 30 94 2B BA 04 E6 10 E0 DF DF 0C 94 00 00
+R 00 00 00 00 12 0E 02 00
+T 00 00 05 1A
+R 00 00 02 00
+T 02 00 60
+R 00 00 02 00
+T 03 00 06 00
+R 00 00 02 00
+T 05 00 07 00
+R 00 00 02 00
+T 07 00 01 00
+R 00 00 02 00
+T 09 00 02 00
+R 00 00 02 00
+T 46 00 2B 97 80 E0 90 E0 FE 01 03 E0 10 E0 FA 93
+R 00 00 00 00 20 04 01 00 00 00 40 06 01 00 00 00
+T 54 00 EA 93 9A 93 8A 93 0E 94 00 00 80 E0
+R 00 00 00 00 12 0A 04 00 20 0C 01 00 03 00
+T 60 00 90 E0 FE 01 33 96 08 E0 10 E0 FA 93 EA 93
+R 00 00 00 00 40 02 01 00 03 00
+T 6E 00 9A 93 8A 93 0E 94 00 00 87 E8 84 BB 8F EF
+R 00 00 00 00 12 08 04 00
+T 7C 00 8A BB 81 E0 80 93 64 00 22 24 20 92 65 00
+R 00 00 00 00
+T 8A 00 2B BA 25 BA 85 E0 85 BB 81 E0 85 BB 8F EF
+R 00 00 00 00
+T 98 00 8B BB 81 E0 85 BB 82 E0 85 BB 87 E0 85 BB
+R 00 00 00 00
+T A6 00 86 E0 85 BB 44 C0 44 27 55 27 66 27 77 27
+R 00 00 00 00
+T B4 00 CE 01 FB 01 E8 0F F9 1F 20 81 33 27 CE 01
+R 00 00 00 00
+T C2 00 03 96 FA 01 EE 0F FF 1F E8 0F F9 1F 00 81
+R 00 00 00 00
+T D0 00 11 81 AB DF 6F 5F 7F 4F 63 30 E0 E0 7E 07
+R 00 00 00 00
+T DE 00 54 F3 8F EF 8B BB 4F 5F 5F 4F 44 30 E0 E0
+R 00 00 00 00
+T EC 00 5E 07 04 F3 43 E0 50 E0 62 E0 70 E0 CE 01
+R 00 00 00 00
+T FA 00 FB 01 E8 0F F9 1F 20 81 33 27 CE 01 03 96
+R 00 00 00 00
+T 08 01 FA 01 EE 0F FF 1F E8 0F F9 1F 00 81 11 81
+R 00 00 00 00
+T 16 01 89 DF 61 50 70 40 60 30 E0 E0 7E 07 54 F7
+R 00 00 00 00
+T 24 01 8F EF 8B BB 41 50 50 40 40 30 E0 E0 5E 07
+R 00 00 00 00
+T 32 01 04 F7 BB CF 2B 96 08 95
+R 00 00 00 00

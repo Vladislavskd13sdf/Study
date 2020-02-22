@@ -1,0 +1,18 @@
+#include "io8535v.h"
+#include "macros.h"
+void main()
+{
+	 char data;
+	 DDRC=0b11111111;
+	 while(1)
+	 {
+			 data=data+data;
+			 if(data>=128)
+			 {
+			  			  data=1;
+			 }
+			 PORTC=data;
+			 
+			 
+	 }
+}

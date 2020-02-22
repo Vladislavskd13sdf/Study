@@ -1,0 +1,70 @@
+#include "iom128v.h"
+#include "macros.h"
+
+void delay(int ms)
+{
+int t,j;
+ for(t=0;t<ms;t++)
+ {
+  for(j=0;j<970;j++)
+  {
+   NOP();
+  }
+ }
+}
+
+void main()
+{
+ char s=0,m=0,h=0,D=0;
+ char seg[10]={0b01110111,0b01100000,0b00111110,0b01111010,0b01101001,0b01011011,0b01011111,0b01110000,0b01111111,0b01111011};
+ DDRC=0b11111111;
+ DDRA=0xff;
+ DDRG=1;
+ PORTC=6;
+ PORTC=7;
+ PORTC=1;
+ PORTC=2;
+ PORTA=0xff;
+ while(1)
+ {
+  if(s>=59)
+  {
+   m++;
+   s=0;
+   if(m>=59)
+   {
+   	h++;
+   	m=0;
+	if(h>=23)
+    {
+   	 D++;
+   	 h=0;
+	 
+    }
+    else
+    {
+     h++;
+	 PORTC=7;
+   	 PORTA=~seg[h%10];
+   	 PORTC=6;
+   	 PORTA=~seg[h/10];
+    }
+   }
+   else
+   {
+   	m++;
+   	PORTC=2;
+   	PORTA=~seg[m%10];
+   	PORTC=1;
+   	PORTA=~seg[m/10];
+   }
+  }
+  else
+  {
+   s++;
+   PORTC=4;
+   PORTA=~s;
+  }
+  delay(1000);
+ }
+}

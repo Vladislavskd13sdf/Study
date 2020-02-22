@@ -1,0 +1,15 @@
+#include "iom128v.h"
+void main()
+{
+	 DDRC=0b11111111;
+	 int num=0b00000001;
+	 while(1)
+	 {
+			 PORTC=num;
+			 num*=2;
+			 if(num>=128)
+			 {
+			  			 num=0b00000001;
+			 } 
+	 }
+}

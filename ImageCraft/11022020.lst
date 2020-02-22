@@ -1,0 +1,325 @@
+Interrupt Vectors
+00000 940C 005E JMP	__start|__text_start
+Program Code (text area)
+FILE: E:\Projects\ImageCraft\smirnov110220.c
+(0001) #include "iom128v.h"
+(0002) #include "macros.h"
+(0003) void delay(int t)
+__start|__text_start:
+    0005E EFCF      LDI	R28,0xFF
+    0005F E1D0      LDI	R29,0x10
+    00060 BFCD      OUT	0x3D,R28
+    00061 BFDE      OUT	0x3E,R29
+    00062 51CE      SUBI	R28,0x1E
+    00063 40D0      SBCI	R29,0
+    00064 EA0A      LDI	R16,0xAA
+    00065 8308      ST	Y,R16
+    00066 2400      CLR	R0
+    00067 E3E0      LDI	R30,0x30
+    00068 E0F1      LDI	R31,1
+    00069 E011      LDI	R17,1
+    0006A 33E0      CPI	R30,0x30
+    0006B 07F1      CPC	R31,R17
+    0006C F011      BEQ	0x006F
+    0006D 9201      ST	Z+,R0
+    0006E CFFB      RJMP	0x006A
+    0006F 8300      ST	Z,R16
+    00070 E8EC      LDI	R30,0x8C
+    00071 E0F0      LDI	R31,0
+    00072 E0A0      LDI	R26,0
+    00073 E0B1      LDI	R27,1
+    00074 E010      LDI	R17,0
+    00075 E000      LDI	R16,0
+    00076 BF0B      OUT	0x3B,R16
+    00077 3BEC      CPI	R30,0xBC
+    00078 07F1      CPC	R31,R17
+    00079 F021      BEQ	0x007E
+    0007A 95C8      LPM
+    0007B 9631      ADIW	R30,1
+    0007C 920D      ST	X+,R0
+    0007D CFF9      RJMP	0x0077
+    0007E 940E 0096 CALL	_main
+_exit:
+    00080 CFFF      RJMP	_exit
+_delay:
+  c1                   --> R20
+  c2                   --> R22
+  t                    --> R16
+    00081 940E 00FE CALL	push_xgsetF000
+    00083 2744      CLR	R20
+    00084 2755      CLR	R21
+    00085 C00B      RJMP	0x0091
+(0004) {
+(0005) 	int c2;
+(0006)     int c1;
+(0007) 	for(c1=0;c1<t;c1++)
+(0008)     {
+(0009)     	for(c2=0;c2<970;c2++)
+    00086 2766      CLR	R22
+    00087 2777      CLR	R23
+(0010)         {
+(0011)         	NOP();
+    00088 0000      NOP
+    00089 5F6F      SUBI	R22,0xFF
+    0008A 4F7F      SBCI	R23,0xFF
+    0008B 3C6A      CPI	R22,0xCA
+    0008C E0E3      LDI	R30,3
+    0008D 077E      CPC	R23,R30
+    0008E F3CC      BLT	0x0088
+    0008F 5F4F      SUBI	R20,0xFF
+    00090 4F5F      SBCI	R21,0xFF
+    00091 1740      CP	R20,R16
+    00092 0751      CPC	R21,R17
+    00093 F394      BLT	0x0086
+    00094 940C 0103 JMP	pop_xgsetF000
+_main:
+  cnt                  --> Y,+1
+  A                    --> Y,+16
+  segment              --> Y,+10
+  seg                  --> Y,+0
+  t                    --> R20
+    00096 97E0      SBIW	R28,0x30
+(0012)         }
+(0013)     }
+(0014) }
+(0015) void main()
+(0016) {
+(0017) 	char t;
+(0018)     char seg[10]={0b01110111,0b01100000,0b00111110,0b01111010,0b01101001,0b01011011,0b01011111,0b01110000,0b01111111,0b01111011};
+    00097 E080      LDI	R24,0
+    00098 E091      LDI	R25,1
+    00099 01FE      MOVW	R30,R28
+    0009A E00A      LDI	R16,0xA
+    0009B E010      LDI	R17,0
+    0009C 93FA      ST	-Y,R31
+    0009D 93EA      ST	-Y,R30
+    0009E 939A      ST	-Y,R25
+    0009F 938A      ST	-Y,R24
+    000A0 940E 0108 CALL	asgnblk
+(0019)     char segment[6]={0b00010000,0b00100000,0b01000000,0b00000010,0b00000100,0b00000001};
+    000A2 E08A      LDI	R24,0xA
+    000A3 E091      LDI	R25,1
+    000A4 01FE      MOVW	R30,R28
+    000A5 963A      ADIW	R30,0xA
+    000A6 E006      LDI	R16,6
+    000A7 E010      LDI	R17,0
+    000A8 93FA      ST	-Y,R31
+    000A9 93EA      ST	-Y,R30
+    000AA 939A      ST	-Y,R25
+    000AB 938A      ST	-Y,R24
+    000AC 940E 0108 CALL	asgnblk
+(0020)     char A[8][4]={{0,0,0,0},{0,0,0,0b01111010},{0,0,0b01111010,0b01111010},{0,0b01111010,0b01111010,0b00111110},{0b01111010,0b01111010,0b00111110,0b01100000},{0b01111010,0b00111110,0b01100000,0},{0b00111110,0b01100000,0,0},{0b01100000,0,0,0}};
+    000AE E180      LDI	R24,0x10
+    000AF E091      LDI	R25,1
+    000B0 01FE      MOVW	R30,R28
+    000B1 9670      ADIW	R30,0x10
+    000B2 E200      LDI	R16,0x20
+    000B3 E010      LDI	R17,0
+    000B4 93FA      ST	-Y,R31
+    000B5 93EA      ST	-Y,R30
+    000B6 939A      ST	-Y,R25
+    000B7 938A      ST	-Y,R24
+    000B8 940E 0108 CALL	asgnblk
+(0021)     int cnt;
+(0022) 	DDRA=0b11111111;
+    000BA EF8F      LDI	R24,0xFF
+    000BB BB8A      OUT	0x1A,R24
+(0023)     DDRC=0b10000111;
+    000BC E887      LDI	R24,0x87
+    000BD BB84      OUT	0x14,R24
+(0024)     DDRG=0b00000001;
+    000BE E081      LDI	R24,1
+    000BF 9380 0064 STS	0x64,R24
+    000C1 C039      RJMP	0x00FB
+(0025)     while(1)
+(0026)     {
+(0027)     	/*for(t=0;t<8;t++)
+(0028)         {
+(0029)         	PORTC=6;
+(0030)             PORTA=~A[t][0];
+(0031)             PORTC=7;
+(0032)             PORTA=~A[t][1];
+(0033)             PORTC=1;
+(0034)             PORTA=~A[t][2];
+(0035)             PORTC=2;
+(0036)             PORTA=~A[t][3];
+(0037)         	delay(500);
+(0038)          }*/
+(0039)     	/*for(t=0;t<6;t++)
+(0040)         {
+(0041)         	PORTC=6;
+(0042)             PORTA=~segment[t];
+(0043)             PORTC=7;
+(0044)             PORTA=~segment[t];
+(0045)             PORTC=1;
+(0046)             PORTA=~segment[t];
+(0047)             PORTC=2;
+(0048)             PORTA=~segment[t];
+(0049)             delay(1000);
+(0050)          }*/
+(0051)     	/*for(cnt=0;cnt<=9999;cnt++)
+(0052)         {
+(0053)         	PORTC=6;
+(0054)             PORTA=~seg[cnt/1000];
+(0055)             PORTC=7;
+(0056)             PORTA=~seg[(cnt%1000)/100];
+(0057)             PORTC=1;
+(0058)             PORTA=~seg[(cnt%100)/10];
+(0059)             PORTC=2;
+(0060)             PORTA=~seg[cnt%10];
+(0061)             delay(20);
+(0062)     	}*/
+(0063)     	/*PORTC=6;
+(0064)         PORTA=~0b01111010;
+(0065)         PORTC=7;
+(0066)         PORTA=~0b01111010;
+(0067)         PORTC=1;
+(0068)         PORTA=~0b00111110;
+(0069)         PORTC=2;
+(0070)         PORTA=~0b01100000;
+(0071)         delay(100);*/
+(0072)     	/*PORTA=0b00000001;
+(0073)         delay(1000);
+(0074)         PORTA=0b00000010;
+(0075)         delay(1000);
+(0076)         PORTA=0b00001000;
+(0077)         delay(1000);*/
+(0078)         for(t=0;t<255;t++)
+    000C2 2744      CLR	R20
+    000C3 C00F      RJMP	0x00D3
+(0079)         {
+(0080)         	PORTA=0b00000001;
+    000C4 E081      LDI	R24,1
+    000C5 BB8B      OUT	0x1B,R24
+(0081)         	delay(255-t);
+    000C6 2E24      MOV	R2,R20
+    000C7 2433      CLR	R3
+    000C8 EF0F      LDI	R16,0xFF
+    000C9 E010      LDI	R17,0
+    000CA 1902      SUB	R16,R2
+    000CB 0913      SBC	R17,R3
+    000CC DFB4      RCALL	_delay
+(0082)             PORTA=0b00001000;
+    000CD E088      LDI	R24,0x8
+    000CE BB8B      OUT	0x1B,R24
+(0083)             delay(t);
+    000CF 2F04      MOV	R16,R20
+    000D0 2711      CLR	R17
+    000D1 DFAF      RCALL	_delay
+    000D2 9543      INC	R20
+    000D3 3F4F      CPI	R20,0xFF
+    000D4 F378      BCS	0x00C4
+(0084)         }
+(0085)         for(t=0;t<255;t++)
+    000D5 2744      CLR	R20
+    000D6 C00F      RJMP	0x00E6
+(0086)         {
+(0087)         	PORTA=0b00001000;
+    000D7 E088      LDI	R24,0x8
+    000D8 BB8B      OUT	0x1B,R24
+(0088)             delay(255-t);
+    000D9 2E24      MOV	R2,R20
+    000DA 2433      CLR	R3
+    000DB EF0F      LDI	R16,0xFF
+    000DC E010      LDI	R17,0
+    000DD 1902      SUB	R16,R2
+    000DE 0913      SBC	R17,R3
+    000DF DFA1      RCALL	_delay
+(0089)             PORTA=0b00000010;
+    000E0 E082      LDI	R24,2
+    000E1 BB8B      OUT	0x1B,R24
+(0090)             delay(t);
+    000E2 2F04      MOV	R16,R20
+    000E3 2711      CLR	R17
+    000E4 DF9C      RCALL	_delay
+    000E5 9543      INC	R20
+    000E6 3F4F      CPI	R20,0xFF
+    000E7 F378      BCS	0x00D7
+(0091)         }
+(0092)         for(t=0;t<255;t++)
+    000E8 2744      CLR	R20
+    000E9 C00F      RJMP	0x00F9
+(0093)         {
+(0094)         	PORTA=0b00000010;
+    000EA E082      LDI	R24,2
+    000EB BB8B      OUT	0x1B,R24
+(0095)             delay(255-t);
+    000EC 2E24      MOV	R2,R20
+    000ED 2433      CLR	R3
+    000EE EF0F      LDI	R16,0xFF
+    000EF E010      LDI	R17,0
+    000F0 1902      SUB	R16,R2
+    000F1 0913      SBC	R17,R3
+    000F2 DF8E      RCALL	_delay
+(0096)             PORTA=0b00000001;
+    000F3 E081      LDI	R24,1
+    000F4 BB8B      OUT	0x1B,R24
+(0097)             delay(t);
+(0098)         }
+(0099)         /*PORTA=0b00001010;
+(0100)         delay(1000);
+(0101)         PORTA=0b00001011;
+(0102)         delay(1000);*/
+(0103)         /*for(t=0;t<255;t++)
+(0104)         {
+(0105)         	PORTA=0;
+(0106)             delay(t);
+(0107)             PORTA=0b11111111;
+(0108)             delay(255-t);
+(0109)         }
+(0110)         for(;t>0;t--)
+(0111)         {
+(0112)         	PORTA=0;
+(0113)             delay(t);
+(0114)             PORTA=0b11111111;
+(0115)             delay(255-t);
+(0116)         }*/
+(0117)     }
+(0118) }
+FILE: <library>
+    000F5 2F04      MOV	R16,R20
+    000F6 2711      CLR	R17
+    000F7 DF89      RCALL	_delay
+    000F8 9543      INC	R20
+    000F9 3F4F      CPI	R20,0xFF
+    000FA F378      BCS	0x00EA
+    000FB CFC6      RJMP	0x00C2
+    000FC 96E0      ADIW	R28,0x30
+    000FD 9508      RET
+push_xgsetF000:
+    000FE 937A      ST	-Y,R23
+    000FF 936A      ST	-Y,R22
+    00100 935A      ST	-Y,R21
+    00101 934A      ST	-Y,R20
+    00102 9508      RET
+pop_xgsetF000:
+    00103 9149      LD	R20,Y+
+    00104 9159      LD	R21,Y+
+    00105 9169      LD	R22,Y+
+    00106 9179      LD	R23,Y+
+    00107 9508      RET
+asgnblk:
+    00108 93AA      ST	-Y,R26
+    00109 93BA      ST	-Y,R27
+    0010A 93EA      ST	-Y,R30
+    0010B 93FA      ST	-Y,R31
+    0010C 920A      ST	-Y,R0
+    0010D 81AF      LDD	R26,Y+7
+    0010E 85B8      LDD	R27,Y+8
+    0010F 81ED      LDD	R30,Y+5
+    00110 81FE      LDD	R31,Y+6
+    00111 3000      CPI	R16,0
+    00112 0701      CPC	R16,R17
+    00113 F029      BEQ	0x0119
+    00114 9001      LD	R0,Z+
+    00115 920D      ST	X+,R0
+    00116 5001      SUBI	R16,1
+    00117 4010      SBCI	R17,0
+    00118 CFF8      RJMP	0x0111
+    00119 9009      LD	R0,Y+
+    0011A 91F9      LD	R31,Y+
+    0011B 91E9      LD	R30,Y+
+    0011C 91B9      LD	R27,Y+
+    0011D 91A9      LD	R26,Y+
+    0011E 9624      ADIW	R28,4
+    0011F 9508      RET

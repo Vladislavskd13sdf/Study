@@ -1,0 +1,64 @@
+Interrupt Vectors
+00000 940C 0046 JMP	__start|__text_start
+Program Code (text area)
+FILE: E:\Projects\Microproccesorss\Lab1\imagectaft\task_1\task_1.c
+(0001) #include "iom128v.h"
+(0002) void main()
+__start|__text_start:
+    00046 EFCF      LDI	R28,0xFF
+    00047 E1D0      LDI	R29,0x10
+    00048 BFCD      OUT	0x3D,R28
+    00049 BFDE      OUT	0x3E,R29
+    0004A 51CE      SUBI	R28,0x1E
+    0004B 40D0      SBCI	R29,0
+    0004C EA0A      LDI	R16,0xAA
+    0004D 8308      ST	Y,R16
+    0004E 2400      CLR	R0
+    0004F E0E0      LDI	R30,0
+    00050 E0F1      LDI	R31,1
+    00051 E011      LDI	R17,1
+    00052 30E0      CPI	R30,0
+    00053 07F1      CPC	R31,R17
+    00054 F011      BEQ	0x0057
+    00055 9201      ST	Z+,R0
+    00056 CFFB      RJMP	0x0052
+    00057 8300      ST	Z,R16
+    00058 E8EC      LDI	R30,0x8C
+    00059 E0F0      LDI	R31,0
+    0005A E0A0      LDI	R26,0
+    0005B E0B1      LDI	R27,1
+    0005C E010      LDI	R17,0
+    0005D E000      LDI	R16,0
+    0005E BF0B      OUT	0x3B,R16
+    0005F 38EC      CPI	R30,0x8C
+    00060 07F1      CPC	R31,R17
+    00061 F021      BEQ	0x0066
+    00062 95C8      LPM
+    00063 9631      ADIW	R30,1
+    00064 920D      ST	X+,R0
+    00065 CFF9      RJMP	0x005F
+    00066 940E 0069 CALL	_main
+_exit:
+    00068 CFFF      RJMP	_exit
+_main:
+  data                 --> Y,+1
+    00069 EF8F      LDI	R24,0xFF
+    0006A BB84      OUT	0x14,R24
+(0003) {
+(0004)  	 char data;
+(0005) 	 DDRC=0b11111111;
+(0006) 	 DDRB=0b11111111;
+    0006B BB87      OUT	0x17,R24
+    0006C C004      RJMP	0x0071
+(0007) 	 while(1)
+(0008) 	 {
+(0009) 			 PORTC=PINB+PIND; 
+(0010) 	 }
+(0011) }
+FILE: <library>
+    0006D B220      IN	R2,0x10
+    0006E B236      IN	R3,0x16
+    0006F 0C32      ADD	R3,R2
+    00070 BA35      OUT	0x15,R3
+    00071 CFFB      RJMP	0x006D
+    00072 9508      RET

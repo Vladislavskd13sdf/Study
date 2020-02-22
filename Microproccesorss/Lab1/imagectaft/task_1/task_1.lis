@@ -1,0 +1,45 @@
+                        .module task_1.c
+                        .area text(rom, con, rel)
+ 0000                   .dbfile task_1.c
+ 0000                   .dbfile E:\Projects\Microproccesorss\Lab1\imagectaft\task_1\task_1.c
+ 0000                   .dbfunc e main _main fV
+ 0000           ;           data -> <dead>
+                        .even
+ 0000           _main::
+ 0000                   .dbline -1
+ 0000                   .dbline 3
+ 0000           ; #include "iom128v.h"
+ 0000           ; void main()
+ 0000           ; {
+ 0000                   .dbline 5
+ 0000           ;        char data;
+ 0000           ;        DDRC=0b11111111;
+ 0000 8FEF              ldi R24,255
+ 0002 84BB              out 0x14,R24
+ 0004                   .dbline 6
+ 0004           ;        DDRB=0b11111111;
+ 0004 87BB              out 0x17,R24
+ 0006 04C0              xjmp L3
+ 0008           L2:
+ 0008                   .dbline 8
+ 0008           ;        while(1)
+ 0008           ;        {
+ 0008                   .dbline 9
+ 0008           ;                        PORTC=PINB+PIND; 
+ 0008 20B2              in R2,0x10
+ 000A 36B2              in R3,0x16
+ 000C 320C              add R3,R2
+ 000E 35BA              out 0x15,R3
+ 0010                   .dbline 10
+ 0010           ;        }
+ 0010           L3:
+ 0010                   .dbline 7
+ 0010 FBCF              xjmp L2
+ 0012           X0:
+ 0012                   .dbline -2
+ 0012           L1:
+ 0012                   .dbline 0 ; func end
+ 0012 0895              ret
+ 0014                   .dbsym l data 1 c
+ 0014                   .dbend
+ 0014           ; }

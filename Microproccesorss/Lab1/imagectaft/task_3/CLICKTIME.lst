@@ -1,0 +1,141 @@
+Interrupt Vectors
+00000 940C 0046 JMP	__text_start|__start
+Program Code (text area)
+FILE: E:\Projects\Microproccesorss\Lab1\imagectaft\task_3\click_time.c
+(0001) #include "iom128v.h"
+(0002) #include "macros.h"
+(0003) void delay(int t)
+__text_start|__start:
+    00046 EFCF      LDI	R28,0xFF
+    00047 E1D0      LDI	R29,0x10
+    00048 BFCD      OUT	0x3D,R28
+    00049 BFDE      OUT	0x3E,R29
+    0004A 51CE      SUBI	R28,0x1E
+    0004B 40D0      SBCI	R29,0
+    0004C EA0A      LDI	R16,0xAA
+    0004D 8308      ST	Y,R16
+    0004E 2400      CLR	R0
+    0004F E0E0      LDI	R30,0
+    00050 E0F1      LDI	R31,1
+    00051 E011      LDI	R17,1
+    00052 30E0      CPI	R30,0
+    00053 07F1      CPC	R31,R17
+    00054 F011      BEQ	0x0057
+    00055 9201      ST	Z+,R0
+    00056 CFFB      RJMP	0x0052
+    00057 8300      ST	Z,R16
+    00058 E8EC      LDI	R30,0x8C
+    00059 E0F0      LDI	R31,0
+    0005A E0A0      LDI	R26,0
+    0005B E0B1      LDI	R27,1
+    0005C E010      LDI	R17,0
+    0005D E000      LDI	R16,0
+    0005E BF0B      OUT	0x3B,R16
+    0005F 38EC      CPI	R30,0x8C
+    00060 07F1      CPC	R31,R17
+    00061 F021      BEQ	0x0066
+    00062 95C8      LPM
+    00063 9631      ADIW	R30,1
+    00064 920D      ST	X+,R0
+    00065 CFF9      RJMP	0x005F
+    00066 940E 007E CALL	_main
+_exit:
+    00068 CFFF      RJMP	_exit
+_delay:
+  c1                   --> R20
+  c2                   --> R22
+  t                    --> R16
+    00069 940E 0099 CALL	push_xgsetF000
+    0006B 2744      CLR	R20
+    0006C 2755      CLR	R21
+    0006D C00B      RJMP	0x0079
+(0004) {
+(0005) 	int c1,c2;
+(0006) 	for(c1=0;c1<t;c1++)
+(0007)     {
+(0008)     	for(c2=0;c2<970;c2++)
+    0006E 2766      CLR	R22
+    0006F 2777      CLR	R23
+(0009)         {
+(0010)         	NOP();
+    00070 0000      NOP
+    00071 5F6F      SUBI	R22,0xFF
+    00072 4F7F      SBCI	R23,0xFF
+    00073 3C6A      CPI	R22,0xCA
+    00074 E0E3      LDI	R30,3
+    00075 077E      CPC	R23,R30
+    00076 F3CC      BLT	0x0070
+    00077 5F4F      SUBI	R20,0xFF
+    00078 4F5F      SBCI	R21,0xFF
+    00079 1740      CP	R20,R16
+    0007A 0751      CPC	R21,R17
+    0007B F394      BLT	0x006E
+    0007C 940C 009E JMP	pop_xgsetF000
+(0011)         }
+(0012)     }
+(0013) }
+(0014) void main()
+(0015) {
+(0016)  	char c;
+(0017) 	DDRC=0b11111111;
+_main:
+  c                    --> R20
+    0007E EF8F      LDI	R24,0xFF
+    0007F BB84      OUT	0x14,R24
+    00080 C016      RJMP	0x0097
+(0018)     while(1)
+(0019)     {
+(0020) 	 	for(c=0;c<100;c++)
+    00081 2744      CLR	R20
+    00082 C007      RJMP	0x008A
+(0021) 		{
+(0022) 		 	PORTC=0b00000001+c;
+    00083 2F84      MOV	R24,R20
+    00084 5F8F      SUBI	R24,0xFF
+    00085 BB85      OUT	0x15,R24
+(0023) 			delay(50);
+    00086 E302      LDI	R16,0x32
+    00087 E010      LDI	R17,0
+    00088 DFE0      RCALL	_delay
+    00089 9543      INC	R20
+    0008A 3644      CPI	R20,0x64
+    0008B F3B8      BCS	0x0083
+(0024) 
+(0025) 		}
+(0026) 		for(c=0;c<100;c++)
+    0008C 2744      CLR	R20
+    0008D C007      RJMP	0x0095
+(0027) 		{
+(0028) 		 	PORTC=0b01100100-c;
+    0008E E684      LDI	R24,0x64
+    0008F 1B84      SUB	R24,R20
+    00090 BB85      OUT	0x15,R24
+(0029) 			delay(50);
+(0030) 
+(0031) 		}
+(0032)     	
+(0033)     }
+(0034)     
+(0035)     
+(0036) }
+FILE: <library>
+    00091 E302      LDI	R16,0x32
+    00092 E010      LDI	R17,0
+    00093 DFD5      RCALL	_delay
+    00094 9543      INC	R20
+    00095 3644      CPI	R20,0x64
+    00096 F3B8      BCS	0x008E
+    00097 CFE9      RJMP	0x0081
+    00098 9508      RET
+push_xgsetF000:
+    00099 937A      ST	-Y,R23
+    0009A 936A      ST	-Y,R22
+    0009B 935A      ST	-Y,R21
+    0009C 934A      ST	-Y,R20
+    0009D 9508      RET
+pop_xgsetF000:
+    0009E 9149      LD	R20,Y+
+    0009F 9159      LD	R21,Y+
+    000A0 9169      LD	R22,Y+
+    000A1 9179      LD	R23,Y+
+    000A2 9508      RET

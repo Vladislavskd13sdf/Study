@@ -1,0 +1,59 @@
+XL
+H 1 areas 5 global symbols
+M iterSetFile.c
+S push_xgsetF000 Ref0000
+S lsl8 Ref0000
+S pop_xgsetF000 Ref0000
+A text size 4E flags 0
+dbfile iterSetFile.c
+dbfile E:\Projects\Microproccesorss\Lab1\imagectaft\task_2\iterSetFile.c
+dbfunc e delay 0 fV
+dbsym r c1 14 I
+dbsym r c2 16 I
+dbsym r t 10 I
+dbline FFFFFFFF 4
+dbline 4 4
+dbline 6 4
+dbline 7 A
+dbline 8 A
+dbline 9 E
+dbline A E
+dbline B 10
+dbline 8 10
+dbline 8 14
+dbline C 1C
+dbline 6 1C
+dbline 6 20
+dbline FFFFFFFE 26
+dbline 0 26
+dbfunc e main 2A fV
+dbsym r c 14 c
+dbline FFFFFFFF 2A
+dbline F 2A
+dbline 11 2A
+dbline 13 30
+dbline 14 30
+dbline 15 34
+dbline 16 34
+dbline 17 3E
+dbline 19 44
+dbline 14 44
+dbline 14 46
+dbline 1B 4A
+dbline 12 4A
+dbline FFFFFFFE 4C
+dbline 0 4C
+S _main Def002A
+S _delay Def0000
+T 00 00 0E 94 00 00 44 27 55 27 0B C0 66 27 77 27
+R 00 00 00 00 12 04 00 00
+T 0E 00 00 00 6F 5F 7F 4F 6A 3C E3 E0 7E 07 CC F3
+R 00 00 00 00
+T 1C 00 4F 5F 5F 4F 40 17 51 07 94 F3 0C 94 00 00
+R 00 00 00 00 12 0E 02 00
+T 2A 00 8F EF 84 BB 0D C0 44 27 09 C0 01 E0 14 2F
+R 00 00 00 00
+T 38 00 0E 94 00 00 05 BB 04 E6 10 E0 DE DF 43 95
+R 00 00 00 00 12 04 01 00
+T 46 00 48 30 A8 F3 F2 CF 08 95
+R 00 00 00 00

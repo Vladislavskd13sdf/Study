@@ -1,0 +1,118 @@
+                        .module testcraft.c
+                        .area text(rom, con, rel)
+ 0000                   .dbfile testcraft.c
+ 0000                   .dbfile E:\Projects\testCraft\testcraft.c
+ 0000                   .dbfunc e delay _delay fV
+ 0000           ;             c1 -> R20,R21
+ 0000           ;             c2 -> R22,R23
+ 0000           ;              t -> R16,R17
+                        .even
+ 0000           _delay::
+ 0000 0E940000          xcall push_xgsetF000
+ 0004                   .dbline -1
+ 0004                   .dbline 4
+ 0004           ; #include "iom16v.h"
+ 0004           ; #include "macros.h"
+ 0004           ; void delay(int t)
+ 0004           ; {
+ 0004                   .dbline 6
+ 0004           ;       int c1,c2;
+ 0004           ;       for(c1=0;c1<t;c1++)
+ 0004 4427              clr R20
+ 0006 5527              clr R21
+ 0008 0BC0              xjmp L5
+ 000A           L2:
+ 000A                   .dbline 7
+ 000A           ;     {
+ 000A                   .dbline 8
+ 000A           ;       for(c2=0;c2<100;c2++)
+ 000A 6627              clr R22
+ 000C 7727              clr R23
+ 000E           L6:
+ 000E                   .dbline 9
+ 000E           ;         {
+ 000E                   .dbline 10
+ 000E           ;               NOP();
+ 000E 0000              nop
+ 0010                   .dbline 11
+ 0010           ;         }
+ 0010           L7:
+ 0010                   .dbline 8
+ 0010 6F5F              subi R22,255  ; offset = 1
+ 0012 7F4F              sbci R23,255
+ 0014                   .dbline 8
+ 0014 6436              cpi R22,100
+ 0016 E0E0              ldi R30,0
+ 0018 7E07              cpc R23,R30
+ 001A CCF3              brlt L6
+ 001C           X0:
+ 001C                   .dbline 12
+ 001C           ;     }
+ 001C           L3:
+ 001C                   .dbline 6
+ 001C 4F5F              subi R20,255  ; offset = 1
+ 001E 5F4F              sbci R21,255
+ 0020           L5:
+ 0020                   .dbline 6
+ 0020 4017              cp R20,R16
+ 0022 5107              cpc R21,R17
+ 0024 94F3              brlt L2
+ 0026           X1:
+ 0026                   .dbline -2
+ 0026           L1:
+ 0026                   .dbline 0 ; func end
+ 0026 0C940000          xjmp pop_xgsetF000
+ 002A                   .dbsym r c1 20 I
+ 002A                   .dbsym r c2 22 I
+ 002A                   .dbsym r t 16 I
+ 002A                   .dbend
+ 002A                   .dbfunc e main _main fV
+                        .even
+ 002A           _main::
+ 002A                   .dbline -1
+ 002A                   .dbline 15
+ 002A           ; }
+ 002A           ; void main()
+ 002A           ; {
+ 002A                   .dbline 16
+ 002A           ;       DDRC=0b10000001;
+ 002A 81E8              ldi R24,129
+ 002C 84BB              out 0x14,R24
+ 002E 0AC0              xjmp L12
+ 0030           L11:
+ 0030                   .dbline 18
+ 0030           ;     while(1)
+ 0030           ;     {
+ 0030                   .dbline 19
+ 0030           ;       PORTC=0b00000001;
+ 0030 81E0              ldi R24,1
+ 0032 85BB              out 0x15,R24
+ 0034                   .dbline 20
+ 0034           ;         delay(10);
+ 0034 0AE0              ldi R16,10
+ 0036 10E0              ldi R17,0
+ 0038 E3DF              xcall _delay
+ 003A                   .dbline 21
+ 003A           ;       PORTC=0b10000000;
+ 003A 80E8              ldi R24,128
+ 003C 85BB              out 0x15,R24
+ 003E                   .dbline 22
+ 003E           ;         delay(10);
+ 003E 0AE0              ldi R16,10
+ 0040 10E0              ldi R17,0
+ 0042 DEDF              xcall _delay
+ 0044                   .dbline 24
+ 0044           ; 
+ 0044           ;     }
+ 0044           L12:
+ 0044                   .dbline 17
+ 0044 F5CF              xjmp L11
+ 0046           X2:
+ 0046                   .dbline -2
+ 0046           L10:
+ 0046                   .dbline 0 ; func end
+ 0046 0895              ret
+ 0048                   .dbend
+ 0048           ;     
+ 0048           ;     
+ 0048           ; }

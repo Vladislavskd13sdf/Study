@@ -1,0 +1,146 @@
+XL
+H 3 areas 7 global symbols
+M time.c
+S mod16s Ref0000
+S div16s Ref0000
+S push_xgsetF000 Ref0000
+S pop_xgsetF000 Ref0000
+S asgnblk Ref0000
+A text size 11E flags 0
+dbfile time.c
+dbfile E:\Projects\ImageCraft\chasy_time\time.c
+dbfunc e delay 0 fV
+dbsym r t 14 I
+dbsym r j 16 I
+dbsym r ms 10 I
+dbline FFFFFFFF 4
+dbline 5 4
+dbline 7 4
+dbline 8 A
+dbline 9 A
+dbline A E
+dbline B E
+dbline C 10
+dbline 9 10
+dbline 9 14
+dbline D 1C
+dbline 7 1C
+dbline 7 20
+dbline FFFFFFFE 26
+dbline 0 26
+dbfunc e main 2A fV
+dbsym r D C c
+dbsym l seg 0 A[10:10]c
+dbsym r h 16 c
+dbsym r m 14 c
+dbsym r s A c
+dbline FFFFFFFF 2C
+dbline 11 2C
+dbline 12 2C
+dbline 12 2E
+dbline 12 30
+dbline 12 32
+dbline 13 34
+dbline 14 4A
+dbline 15 4E
+dbline 16 50
+dbline 17 56
+dbline 18 5A
+dbline 19 5E
+dbline 1A 62
+dbline 1B 66
+dbline 1D 6C
+dbline 1F 6C
+dbline 20 74
+dbline 21 74
+dbline 22 76
+dbline 23 78
+dbline 24 7C
+dbline 25 7C
+dbline 26 7E
+dbline 27 80
+dbline 28 84
+dbline 29 84
+dbline 2A 86
+dbline 2C 88
+dbline 2E 8A
+dbline 2F 8A
+dbline 30 8E
+dbline 31 A8
+dbline 32 AC
+dbline 33 C6
+dbline 34 C6
+dbline 36 C8
+dbline 37 C8
+dbline 38 CC
+dbline 39 E6
+dbline 3A EA
+dbline 3B 104
+dbline 3C 104
+dbline 3E 106
+dbline 3F 106
+dbline 40 108
+dbline 41 10C
+dbline 42 112
+dbline 43 112
+dbline 44 118
+dbline 1C 118
+dbline FFFFFFFE 11A
+dbline 0 11A
+S _main Def002A
+S _delay Def0000
+A data size A flags 20
+dbfile E:\Projects\ImageCraft\chasy_time\time.c
+A idata size A flags 0
+T 00 00 0E 94 00 00 44 27 55 27 0B C0 66 27 77 27
+R 00 00 00 00 12 04 02 00
+T 0E 00 00 00 6F 5F 7F 4F 6A 3C E3 E0 7E 07 CC F3
+R 00 00 00 00
+T 1C 00 4F 5F 5F 4F 40 17 51 07 94 F3 0C 94 00 00
+R 00 00 00 00 12 0E 03 00
+T 00 00 77 60
+R 00 00 02 00
+T 02 00 3E 7A
+R 00 00 02 00
+T 04 00 69 5B
+R 00 00 02 00
+T 06 00 5F 70
+R 00 00 02 00
+T 08 00 7F 7B
+R 00 00 02 00
+T 2A 00 2A 97 AA 24 44 27 66 27 CC 24 80 E0 90 E0
+R 00 00 00 00 20 0C 01 00 00 00 40 0E 01 00 00 00
+T 38 00 FE 01 0A E0 10 E0 FA 93 EA 93 9A 93 8A 93
+R 00 00 00 00
+T 46 00 0E 94 00 00 8F EF 84 BB 8A BB 81 E0 80 93
+R 00 00 00 00 12 04 04 00
+T 54 00 64 00 86 E0 85 BB 87 E0 85 BB 81 E0 85 BB
+R 00 00 00 00
+T 62 00 82 E0 85 BB 8F EF 8B BB 56 C0 8A 2D 8B 33
+R 00 00 00 00
+T 70 00 08 F4 49 C0 43 95 AA 24 4B 33 30 F1 63 95
+R 00 00 00 00
+T 7E 00 44 27 67 31 18 F0 C3 94 66 27 44 C0 87 E0
+R 00 00 00 00
+T 8C 00 85 BB 2A E0 30 E0 06 2F 11 27 0E 94 00 00
+R 00 00 00 00 12 0E 00 00
+T 9A 00 CE 01 F8 01 E8 0F F9 1F 20 80 20 94 2B BA
+R 00 00 00 00
+T A8 00 86 E0 85 BB 2A E0 30 E0 06 2F 11 27
+R 00 00 00 00
+T B4 00 0E 94 00 00 CE 01 F8 01 E8 0F F9 1F 20 80
+R 00 00 00 00 12 04 01 00
+T C2 00 20 94 2B BA 25 C0 82 E0 85 BB 2A E0 30 E0
+R 00 00 00 00
+T D0 00 04 2F 11 27 0E 94 00 00 CE 01 F8 01 E8 0F
+R 00 00 00 00 12 08 00 00
+T DE 00 F9 1F 20 80 20 94 2B BA 81 E0 85 BB 2A E0
+R 00 00 00 00
+T EC 00 30 E0 04 2F 11 27 0E 94 00 00 CE 01 F8 01
+R 00 00 00 00 12 0A 01 00
+T FA 00 E8 0F F9 1F 20 80 20 94 2B BA 06 C0 A3 94
+R 00 00 00 00
+T 08 01 84 E0 85 BB 2A 2C 20 94 2B BA 0A E0 10 E0
+R 00 00 00 00
+T 16 01 74 DF A9 CF 2A 96 08 95
+R 00 00 00 00

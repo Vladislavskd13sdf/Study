@@ -1,0 +1,94 @@
+                        .module first.c
+                        .area text(rom, con, rel)
+ 0000                   .dbfile first.c
+ 0000                   .dbfile E:\Projects\ImageCraft\first\first.c
+ 0000                   .dbfunc e main _main fV
+ 0000           ;           data -> R16
+                        .even
+ 0000           _main::
+ 0000                   .dbline -1
+ 0000                   .dbline 4
+ 0000           ; 
+ 0000           ; #include "io8535v.h"
+ 0000           ; void main()
+ 0000           ; {
+ 0000                   .dbline 6
+ 0000           ;        char data;
+ 0000           ;        DDRC=0b11111111;
+ 0000 8FEF              ldi R24,255
+ 0002 84BB              out 0x14,R24
+ 0004 03C0              rjmp L3
+ 0006           L2:
+ 0006                   .dbline 8
+ 0006           ;        while(1)
+ 0006           ;        {
+ 0006                   .dbline 9
+ 0006           ;                        data=PIND;
+ 0006 00B3              in R16,0x10
+ 0008                   .dbline 10
+ 0008           ;                        data=data+23;
+ 0008 095E              subi R16,233    ; addi 23
+ 000A                   .dbline 11
+ 000A           ;                        PORTC=data;
+ 000A 05BB              out 0x15,R16
+ 000C                   .dbline 13
+ 000C           ;                        
+ 000C           ;        }
+ 000C           L3:
+ 000C                   .dbline 7
+ 000C FCCF              rjmp L2
+ 000E           X0:
+ 000E                   .dbline -2
+ 000E           L1:
+ 000E                   .dbline 0 ; func end
+ 000E 0895              ret
+ 0010                   .dbsym r data 16 c
+ 0010                   .dbend
+ 0010           ; }
+ 0010           ; 
+ 0010           ; 
+ 0010           ; 
+ 0010           ; 
+ 0010           ; 
+ 0010           ; 
+ 0010           ; 
+ 0010           ; 
+ 0010           ; /*#include <io8535v.h>
+ 0010           ; 
+ 0010           ; //header file
+ 0010           ; #include <header_file.hS>
+ 0010           ; 
+ 0010           ; //global variable in declarate as SRAM
+ 0010           ; #pragma abs_address:0x1000
+ 0010           ; unsigned LCD_control_register
+ 0010           ; #pragma end_abs_address
+ 0010           ; 
+ 0010           ; //#pragme interrupt_handler vector_:_ to create interrupt functions 
+ 0010           ; #pragma interrupt_handler int0_isr:2
+ 0010           ; 
+ 0010           ; //assembler code
+ 0010           ; #asm("asm_code");
+ 0010           ; 
+ 0010           ; 
+ 0010           ; 
+ 0010           ; 
+ 0010           ; int strlen(const char[]);
+ 0010           ; 
+ 0010           ; 
+ 0010           ; const double e=2.718281828;
+ 0010           ; const char msg[]="Error number: ";
+ 0010           ; void main()
+ 0010           ; {
+ 0010           ;        int i;//correct declaration
+ 0010           ;        DDRD=0xff;//setting up all pins of port D to the output
+ 0010           ;        PORTD=0b10101010;//output of the combination 10101010 to the port
+ 0010           ;        int j,k;//uncorrect declaration
+ 0010           ;        
+ 0010           ; }
+ 0010           ; 
+ 0010           ; void int0_isr(void)
+ 0010           ; {
+ 0010           ;        //external interrupt on INT0
+ 0010           ; }
+ 0010           ; 
+ 0010           ; */

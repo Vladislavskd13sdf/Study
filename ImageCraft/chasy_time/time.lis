@@ -1,0 +1,350 @@
+                        .module time.c
+                        .area text(rom, con, rel)
+ 0000                   .dbfile time.c
+ 0000                   .dbfile E:\Projects\ImageCraft\chasy_time\time.c
+ 0000                   .dbfunc e delay _delay fV
+ 0000           ;              t -> R20,R21
+ 0000           ;              j -> R22,R23
+ 0000           ;             ms -> R16,R17
+                        .even
+ 0000           _delay::
+ 0000 0E940000          xcall push_xgsetF000
+ 0004                   .dbline -1
+ 0004                   .dbline 5
+ 0004           ; #include "iom128v.h"
+ 0004           ; #include "macros.h"
+ 0004           ; 
+ 0004           ; void delay(int ms)
+ 0004           ; {
+ 0004                   .dbline 7
+ 0004           ; int t,j;
+ 0004           ;  for(t=0;t<ms;t++)
+ 0004 4427              clr R20
+ 0006 5527              clr R21
+ 0008 0BC0              xjmp L5
+ 000A           L2:
+ 000A                   .dbline 8
+ 000A           ;  {
+ 000A                   .dbline 9
+ 000A           ;   for(j=0;j<970;j++)
+ 000A 6627              clr R22
+ 000C 7727              clr R23
+ 000E           L6:
+ 000E                   .dbline 10
+ 000E           ;   {
+ 000E                   .dbline 11
+ 000E           ;    NOP();
+ 000E 0000              nop
+ 0010                   .dbline 12
+ 0010           ;   }
+ 0010           L7:
+ 0010                   .dbline 9
+ 0010 6F5F              subi R22,255  ; offset = 1
+ 0012 7F4F              sbci R23,255
+ 0014                   .dbline 9
+ 0014 6A3C              cpi R22,202
+ 0016 E3E0              ldi R30,3
+ 0018 7E07              cpc R23,R30
+ 001A CCF3              brlt L6
+ 001C           X0:
+ 001C                   .dbline 13
+ 001C           ;  }
+ 001C           L3:
+ 001C                   .dbline 7
+ 001C 4F5F              subi R20,255  ; offset = 1
+ 001E 5F4F              sbci R21,255
+ 0020           L5:
+ 0020                   .dbline 7
+ 0020 4017              cp R20,R16
+ 0022 5107              cpc R21,R17
+ 0024 94F3              brlt L2
+ 0026           X1:
+ 0026                   .dbline -2
+ 0026           L1:
+ 0026                   .dbline 0 ; func end
+ 0026 0C940000          xjmp pop_xgsetF000
+ 002A                   .dbsym r t 20 I
+ 002A                   .dbsym r j 22 I
+ 002A                   .dbsym r ms 16 I
+ 002A                   .dbend
+                        .area data(ram, con, rel)
+ 0000                   .dbfile E:\Projects\ImageCraft\chasy_time\time.c
+ 0000           L11:
+ 0000                   .blkb 2
+                        .area idata
+ 0000 7760              .byte 'w,96
+                        .area data(ram, con, rel)
+ 0002                   .dbfile E:\Projects\ImageCraft\chasy_time\time.c
+ 0002                   .blkb 2
+                        .area idata
+ 0002 3E7A              .byte 62,'z
+                        .area data(ram, con, rel)
+ 0004                   .dbfile E:\Projects\ImageCraft\chasy_time\time.c
+ 0004                   .blkb 2
+                        .area idata
+ 0004 695B              .byte 'i,91
+                        .area data(ram, con, rel)
+ 0006                   .dbfile E:\Projects\ImageCraft\chasy_time\time.c
+ 0006                   .blkb 2
+                        .area idata
+ 0006 5F70              .byte 95,'p
+                        .area data(ram, con, rel)
+ 0008                   .dbfile E:\Projects\ImageCraft\chasy_time\time.c
+ 0008                   .blkb 2
+                        .area idata
+ 0008 7F7B              .byte 127,123
+                        .area data(ram, con, rel)
+ 000A                   .dbfile E:\Projects\ImageCraft\chasy_time\time.c
+                        .area text(rom, con, rel)
+ 002A                   .dbfile E:\Projects\ImageCraft\chasy_time\time.c
+ 002A                   .dbfunc e main _main fV
+ 002A           ;              D -> R12
+ 002A           ;            seg -> y+0
+ 002A           ;              h -> R22
+ 002A           ;              m -> R20
+ 002A           ;              s -> R10
+                        .even
+ 002A           _main::
+ 002A 2A97              sbiw R28,10
+ 002C                   .dbline -1
+ 002C                   .dbline 17
+ 002C           ; }
+ 002C           ; 
+ 002C           ; void main()
+ 002C           ; {
+ 002C                   .dbline 18
+ 002C           ;  char s=0,m=0,h=0,D=0;
+ 002C AA24              clr R10
+ 002E                   .dbline 18
+ 002E 4427              clr R20
+ 0030                   .dbline 18
+ 0030 6627              clr R22
+ 0032                   .dbline 18
+ 0032 CC24              clr R12
+ 0034                   .dbline 19
+ 0034           ;  char seg[10]={0b01110111,0b01100000,0b00111110,0b01111010,0b01101001,0b01011011,0b01011111,0b01110000,0b01111111,0b01111011};
+ 0034 80E0              ldi R24,<L11
+ 0036 90E0              ldi R25,>L11
+ 0038 FE01              movw R30,R28
+ 003A 0AE0              ldi R16,10
+ 003C 10E0              ldi R17,0
+ 003E FA93              st -y,R31
+ 0040 EA93              st -y,R30
+ 0042 9A93              st -y,R25
+ 0044 8A93              st -y,R24
+ 0046 0E940000          xcall asgnblk
+ 004A                   .dbline 20
+ 004A           ;  DDRC=0b11111111;
+ 004A 8FEF              ldi R24,255
+ 004C 84BB              out 0x14,R24
+ 004E                   .dbline 21
+ 004E           ;  DDRA=0xff;
+ 004E 8ABB              out 0x1a,R24
+ 0050                   .dbline 22
+ 0050           ;  DDRG=1;
+ 0050 81E0              ldi R24,1
+ 0052 80936400          sts 100,R24
+ 0056                   .dbline 23
+ 0056           ;  PORTC=6;
+ 0056 86E0              ldi R24,6
+ 0058 85BB              out 0x15,R24
+ 005A                   .dbline 24
+ 005A           ;  PORTC=7;
+ 005A 87E0              ldi R24,7
+ 005C 85BB              out 0x15,R24
+ 005E                   .dbline 25
+ 005E           ;  PORTC=1;
+ 005E 81E0              ldi R24,1
+ 0060 85BB              out 0x15,R24
+ 0062                   .dbline 26
+ 0062           ;  PORTC=2;
+ 0062 82E0              ldi R24,2
+ 0064 85BB              out 0x15,R24
+ 0066                   .dbline 27
+ 0066           ;  PORTA=0xff;
+ 0066 8FEF              ldi R24,255
+ 0068 8BBB              out 0x1b,R24
+ 006A 56C0              xjmp L13
+ 006C           L12:
+ 006C                   .dbline 29
+ 006C           ;  while(1)
+ 006C           ;  {
+ 006C                   .dbline 31
+ 006C           ;  
+ 006C           ;   if(s>=59)
+ 006C 8A2D              mov R24,R10
+ 006E 8B33              cpi R24,59
+ 0070 08F4              brsh X6
+ 0072 49C0              xjmp L15
+ 0074           X6:
+ 0074           X2:
+ 0074                   .dbline 32
+ 0074           ;   {
+ 0074                   .dbline 33
+ 0074           ;    m++;
+ 0074 4395              inc R20
+ 0076                   .dbline 34
+ 0076           ;    s=0;
+ 0076 AA24              clr R10
+ 0078                   .dbline 35
+ 0078           ;    if(m>=59)
+ 0078 4B33              cpi R20,59
+ 007A 30F1              brlo L17
+ 007C           X3:
+ 007C                   .dbline 36
+ 007C           ;    {
+ 007C                   .dbline 37
+ 007C           ;       h++;
+ 007C 6395              inc R22
+ 007E                   .dbline 38
+ 007E           ;       m=0;
+ 007E 4427              clr R20
+ 0080                   .dbline 39
+ 0080           ;       if(h>=23)
+ 0080 6731              cpi R22,23
+ 0082 18F0              brlo L19
+ 0084           X4:
+ 0084                   .dbline 40
+ 0084           ;     {
+ 0084                   .dbline 41
+ 0084           ;        D++;
+ 0084 C394              inc R12
+ 0086                   .dbline 42
+ 0086           ;        h=0;
+ 0086 6627              clr R22
+ 0088                   .dbline 44
+ 0088           ;        
+ 0088           ;     }
+ 0088 44C0              xjmp L16
+ 008A           L19:
+ 008A                   .dbline 46
+ 008A           ;     else
+ 008A           ;     {
+ 008A                   .dbline 47
+ 008A           ;        PORTC=7;
+ 008A 87E0              ldi R24,7
+ 008C 85BB              out 0x15,R24
+ 008E                   .dbline 48
+ 008E           ;        PORTA=~seg[h%10];
+ 008E 2AE0              ldi R18,10
+ 0090 30E0              ldi R19,0
+ 0092 062F              mov R16,R22
+ 0094 1127              clr R17
+ 0096 0E940000          xcall mod16s
+ 009A CE01              movw R24,R28
+ 009C F801              movw R30,R16
+ 009E E80F              add R30,R24
+ 00A0 F91F              adc R31,R25
+ 00A2 2080              ldd R2,z+0
+ 00A4 2094              com R2
+ 00A6 2BBA              out 0x1b,R2
+ 00A8                   .dbline 49
+ 00A8           ;        PORTC=6;
+ 00A8 86E0              ldi R24,6
+ 00AA 85BB              out 0x15,R24
+ 00AC                   .dbline 50
+ 00AC           ;        PORTA=~seg[h/10];
+ 00AC 2AE0              ldi R18,10
+ 00AE 30E0              ldi R19,0
+ 00B0 062F              mov R16,R22
+ 00B2 1127              clr R17
+ 00B4 0E940000          xcall div16s
+ 00B8 CE01              movw R24,R28
+ 00BA F801              movw R30,R16
+ 00BC E80F              add R30,R24
+ 00BE F91F              adc R31,R25
+ 00C0 2080              ldd R2,z+0
+ 00C2 2094              com R2
+ 00C4 2BBA              out 0x1b,R2
+ 00C6                   .dbline 51
+ 00C6           ;     }
+ 00C6                   .dbline 52
+ 00C6           ;    }
+ 00C6 25C0              xjmp L16
+ 00C8           L17:
+ 00C8                   .dbline 54
+ 00C8           ;    else
+ 00C8           ;    {
+ 00C8                   .dbline 55
+ 00C8           ;       PORTC=2;
+ 00C8 82E0              ldi R24,2
+ 00CA 85BB              out 0x15,R24
+ 00CC                   .dbline 56
+ 00CC           ;       PORTA=~seg[m%10];
+ 00CC 2AE0              ldi R18,10
+ 00CE 30E0              ldi R19,0
+ 00D0 042F              mov R16,R20
+ 00D2 1127              clr R17
+ 00D4 0E940000          xcall mod16s
+ 00D8 CE01              movw R24,R28
+ 00DA F801              movw R30,R16
+ 00DC E80F              add R30,R24
+ 00DE F91F              adc R31,R25
+ 00E0 2080              ldd R2,z+0
+ 00E2 2094              com R2
+ 00E4 2BBA              out 0x1b,R2
+ 00E6                   .dbline 57
+ 00E6           ;       PORTC=1;
+ 00E6 81E0              ldi R24,1
+ 00E8 85BB              out 0x15,R24
+ 00EA                   .dbline 58
+ 00EA           ;       PORTA=~seg[m/10];
+ 00EA 2AE0              ldi R18,10
+ 00EC 30E0              ldi R19,0
+ 00EE 042F              mov R16,R20
+ 00F0 1127              clr R17
+ 00F2 0E940000          xcall div16s
+ 00F6 CE01              movw R24,R28
+ 00F8 F801              movw R30,R16
+ 00FA E80F              add R30,R24
+ 00FC F91F              adc R31,R25
+ 00FE 2080              ldd R2,z+0
+ 0100 2094              com R2
+ 0102 2BBA              out 0x1b,R2
+ 0104                   .dbline 59
+ 0104           ;    }
+ 0104                   .dbline 60
+ 0104           ;   }
+ 0104 06C0              xjmp L16
+ 0106           L15:
+ 0106                   .dbline 62
+ 0106           ;   else
+ 0106           ;   {
+ 0106                   .dbline 63
+ 0106           ;    s++;
+ 0106 A394              inc R10
+ 0108                   .dbline 64
+ 0108           ;    PORTC=4;
+ 0108 84E0              ldi R24,4
+ 010A 85BB              out 0x15,R24
+ 010C                   .dbline 65
+ 010C           ;    PORTA=~s;
+ 010C 2A2C              mov R2,R10
+ 010E 2094              com R2
+ 0110 2BBA              out 0x1b,R2
+ 0112                   .dbline 66
+ 0112           ;   }
+ 0112           L16:
+ 0112                   .dbline 67
+ 0112           ;   delay(10);
+ 0112 0AE0              ldi R16,10
+ 0114 10E0              ldi R17,0
+ 0116 74DF              xcall _delay
+ 0118                   .dbline 68
+ 0118           ;  }
+ 0118           L13:
+ 0118                   .dbline 28
+ 0118 A9CF              xjmp L12
+ 011A           X5:
+ 011A                   .dbline -2
+ 011A           L10:
+ 011A                   .dbline 0 ; func end
+ 011A 2A96              adiw R28,10
+ 011C 0895              ret
+ 011E                   .dbsym r D 12 c
+ 011E                   .dbsym l seg 0 A[10:10]c
+ 011E                   .dbsym r h 22 c
+ 011E                   .dbsym r m 20 c
+ 011E                   .dbsym r s 10 c
+ 011E                   .dbend
+ 011E           ; }
