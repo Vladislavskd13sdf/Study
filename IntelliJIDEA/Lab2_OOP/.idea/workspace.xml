@@ -1,7 +1,778 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ab4ed99-43bc-49f3-8544-8485e1fed8ed" name="Default Changelist" comment="" />
+    <list default="true" id="7ab4ed99-43bc-49f3-8544-8485e1fed8ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209101548" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209103806" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209103932" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209104032" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209104822" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209105838" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209110408" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209125814" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209130620" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209131206" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209131228" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209132018" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209132300" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209132754" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209133220" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209133228" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209133336" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209133442" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209133554" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209133608" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/BACKUP/counter147.c.200209133650" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/COUNER147.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/COUNER147.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/COUNER147.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/COUNER147.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/COUNER147.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/COUNER147.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/COUNER147.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/COUNER147.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/couner147.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/counter147.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/counter147.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_1/counter147.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209134520" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209134556" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209134802" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209135534" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209135600" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209140908" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209140956" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209141054" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209141326" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209141538" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209141808" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209141852" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209142010" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209142030" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209142042" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209142132" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209142158" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209142216" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209142350" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209142442" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209142612" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209142658" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209142732" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209142736" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209142808" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209142838" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209143300" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209143342" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209143554" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209143636" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209143950" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/BACKUP/wave.c.200209144016" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/EFFECT_WAVE.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/EFFECT_WAVE.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/EFFECT_WAVE.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/EFFECT_WAVE.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/EFFECT_WAVE.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/EFFECT_WAVE.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/EFFECT_WAVE.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/EFFECT_WAVE.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/effect_wave.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/wave.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/wave.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_2/wave.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209144854" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209145014" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209145614" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209145644" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209145826" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209150806" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209150820" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209150838" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209151034" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209151152" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209151242" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209153038" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209153808" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209154014" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209154026" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209154544" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209154652" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209154716" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209154748" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209154900" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209154950" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209155110" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209155416" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209155856" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209155936" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209155956" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209160132" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209160144" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209160204" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209160306" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209160326" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209160436" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209160442" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209160508" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209160518" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209160558" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209160746" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209160818" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209161152" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200209161254" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211211048" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211211146" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211211300" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211211310" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211211400" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211211620" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211211640" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211212050" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211212134" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211212710" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211212740" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211212750" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211213024" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211213046" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211213350" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211213454" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/BACKUP/ticker.c.200211213632" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/TICKER.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/TICKER.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/TICKER.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/TICKER.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/TICKER.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/TICKER.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/TICKER.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/TICKER.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/ticker.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/ticker.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/ticker.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_3/ticker.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/4321.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/4321.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/4321.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/4321.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/4321.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/4321.i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/4321.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/4321.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/4321.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/4321.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/4321.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/4321.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/4321.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200211213850" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200211214128" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200211214206" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200211214440" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200211214608" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200211214636" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200211214734" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200211215212" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200211215658" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200211215704" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200211215746" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200211215846" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200211215922" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200211220038" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200216141238" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200216141422" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200216141842" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200216142106" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200216142222" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200216143350" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200216144938" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200216145036" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200216145102" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200216145246" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/imagecraft/task_4/BACKUP/4321.c.200217114702" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/proteus/Backup Of test.pdsbak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/proteus/Last Loaded test.pdsbak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/proteus/test.pdsprj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab1/proteus/test.pdsprj.DESKTOP-KDAUG9B.SS.workspace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209101548" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209103806" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209103932" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209104032" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209104822" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209105838" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209110408" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209125814" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209130620" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209131206" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209131228" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209132018" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209132300" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209132754" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209133220" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209133228" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209133336" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209133442" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209133554" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209133608" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/BACKUP/counter147.c.200209133650" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/COUNER147.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/COUNER147.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/COUNER147.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/COUNER147.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/COUNER147.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/COUNER147.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/COUNER147.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/COUNER147.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/couner147.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/counter147.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/counter147.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_1/counter147.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209134520" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209134556" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209134802" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209135534" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209135600" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209140908" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209140956" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209141054" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209141326" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209141538" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209141808" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209141852" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209142010" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209142030" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209142042" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209142132" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209142158" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209142216" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209142350" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209142442" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209142612" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209142658" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209142732" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209142736" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209142808" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209142838" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209143300" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209143342" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209143554" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209143636" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209143950" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/BACKUP/wave.c.200209144016" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/EFFECT_WAVE.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/EFFECT_WAVE.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/EFFECT_WAVE.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/EFFECT_WAVE.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/EFFECT_WAVE.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/EFFECT_WAVE.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/EFFECT_WAVE.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/EFFECT_WAVE.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/effect_wave.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/wave.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/wave.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_2/wave.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209144854" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209145014" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209145614" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209145644" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209145826" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209150806" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209150820" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209150838" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209151034" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209151152" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209151242" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209153038" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209153808" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209154014" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209154026" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209154544" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209154652" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209154716" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209154748" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209154900" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209154950" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209155110" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209155416" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209155856" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209155936" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209155956" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209160132" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209160144" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209160204" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209160306" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209160326" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209160436" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209160442" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209160508" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209160518" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209160558" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209160746" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209160818" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209161152" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200209161254" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211211048" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211211146" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211211300" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211211310" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211211400" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211211620" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211211640" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211212050" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211212134" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211212710" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211212740" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211212750" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211213024" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211213046" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211213350" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211213454" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/BACKUP/ticker.c.200211213632" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/TICKER.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/TICKER.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/TICKER.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/TICKER.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/TICKER.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/TICKER.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/TICKER.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/TICKER.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/ticker.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/ticker.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/ticker.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_3/ticker.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/4321.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/4321.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/4321.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/4321.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/4321.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/4321.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/4321.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/4321.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/4321.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/4321.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/4321.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/4321.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200211213850" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200211214128" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200211214206" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200211214440" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200211214608" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200211214636" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200211214734" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200211215212" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200211215658" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200211215704" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200211215746" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200211215846" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200211215922" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200211220038" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200216141238" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200216141422" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200216141842" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200216142106" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200216142222" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200216143350" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200216144938" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200216145036" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/imagecraft/task_4/BACKUP/4321.c.200216145102" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/proteus/Model_stend/Backup Of test.pdsbak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/proteus/Model_stend/Last Loaded test.pdsbak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/proteus/Model_stend/test.pdsprj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../APSOI/lab2/proteus/Model_stend/test.pdsprj.DESKTOP-KDAUG9B.SS.workspace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/.vs/Lab2_DB_Csh/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/.vs/Lab2_DB_Csh/v16/Server/sqlite3/db.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/.vs/Lab2_DB_Csh/v16/Server/sqlite3/storage.ide" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/.vs/Lab2_DB_Csh/v16/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/.vs/Lab2_DB_Csh/v16/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/Form1.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/Form1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/Lab2_DB_Csh.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/Lab2_DB_Csh.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/Properties/Resources.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/Properties/Resources.resx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/Properties/Settings.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/Properties/Settings.settings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DB/Lab2_DB/Lab2_DB_Csh/obj/Debug/Lab2_DB_Csh.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/11022020.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/11022020.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/11022020.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/11022020.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/11022020.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/11022020.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/11022020.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/11022020.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/11022020.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/12022020.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/12022020.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/12022020.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/12022020.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/12022020.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/12022020.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/12022020.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/12022020.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/12022020.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/2bit_to_10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/2bit_to_10.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/2bit_to_10.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/2bit_to_10.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212105150" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212110456" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212110546" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212110618" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212110746" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212110810" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212111920" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212111948" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212112304" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212112402" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212112520" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212112842" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212113020" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212113030" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212113420" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212114216" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212114234" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212114338" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212114412" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212114430" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212114654" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/12022020/BACKUP/2bit_to_10.c.200212114812" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/BACKUP/smirnov110220._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/BACKUP/smirnov110220.c.200211204708" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/BACKUP/smirnov110220.c.200211220132" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/BACKUP/smirnov110220.c.200211220204" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/BACKUP/smirnov110220.c.200211220240" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/4321._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/4321.c.200216145920" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/4321.c.200217114408" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/4321.c.200217114532" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/4321.c.200217114614" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217103458" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217105926" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217110200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217110338" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217110422" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217110606" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217110708" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217110832" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217110836" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217110924" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217110932" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217111030" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217111154" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217111356" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217111540" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217111702" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217111756" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217111834" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217112200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217112648" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217112732" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217113226" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217113240" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217113316" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217113442" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217113604" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217113626" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217113902" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/BACKUP/time.c.200217113930" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/TIME.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/TIME.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/TIME.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/TIME.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/TIME.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/TIME.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/TIME.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/TIME.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/time.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/time.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/time.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/chasy_time/time.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/first/BACKUP/first._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/first/BACKUP/first.c.200205061420" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/first/FORST.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/first/FORST.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/first/FORST.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/first/FORST.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/first/FORST.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/first/FORST.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/first/FORST.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/first/FORST.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/first/first.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/first/first.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/first/first.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/first/forst.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/lab1/task_1/BACKUP/testcraft._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/lab1/task_1/BACKUP/testcraft.c.200204171908" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/lab1/task_1/TESTCRAFT.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/lab1/task_1/TESTCRAFT.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/lab1/task_1/TESTCRAFT.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/lab1/task_1/TESTCRAFT.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/lab1/task_1/TESTCRAFT.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/lab1/task_1/TESTCRAFT.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/lab1/task_1/TESTCRAFT.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/lab1/task_1/TESTCRAFT.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/lab1/task_1/testcraft.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/lab1/task_1/testcraft.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/lab1/task_1/testcraft.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/lab1/task_1/testcraft.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/smirnov110220.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/smirnov110220.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ImageCraft/smirnov110220.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello_World/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello_World/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello_World/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello_World/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello_World/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hello_World/java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1_OOP/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1_OOP/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1_OOP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1_OOP/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1_OOP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1_OOP/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1_OOP/Lab1_OOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1_OOP/out/production/Lab1_OOP/DataMath.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab1_OOP/src/DataMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2_BD/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2_BD/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2_BD/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2_BD/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2_BD/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2_BD/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab2_BD/Lab2_BD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2_OOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Lab2_OOP/Data/DataStudents.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Lab2_OOP/main/Students.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data/DataStudents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3_OOP/Lab3_OOP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab3_OOP/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2 (2)/lab2/lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/out/production/lab2/lab2/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/out/production/lab2/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/src/lab2/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/BACKUP/task_1._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/BACKUP/task_2._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/FORST.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/LAB1.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/LAB1.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/LAB1.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/LAB1.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/LAB1.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/LAB1.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/LAB1.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/LAB1.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/first.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/lab1.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/task_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/task_1.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_1/task_1.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206041852" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206042210" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206042304" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206042350" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206042404" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206042416" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206043242" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206043256" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206043716" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206044104" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206044234" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206044340" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206044408" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206044504" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206044534" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206044600" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206044738" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206044806" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206044824" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206091832" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206091846" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206091952" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206092042" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206092208" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206092602" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206092802" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206092830" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206092950" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206093044" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206093052" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206093130" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206093200" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206093254" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206093300" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206093322" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206093438" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206093558" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206093630" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206093814" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206093834" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206093916" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206094010" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206094318" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206094334" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206094408" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/BACKUP/iterSetFile.c.200206094504" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/NUMITER.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/NUMITER.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/NUMITER.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/NUMITER.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/NUMITER.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/NUMITER.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/NUMITER.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/NUMITER.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/iterSetFile.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/iterSetFile.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/iterSetFile.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/iterSetFile.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/iterSetFile.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/iterSetFile.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/iterSetFile.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/iterSetFile.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_2/numiter.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/BACKUP/click_time._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/BACKUP/click_time.c.200206094734" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/BACKUP/click_time.c.200206095048" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/BACKUP/click_time.c.200206095410" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/BACKUP/click_time.c.200206095448" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/BACKUP/click_time.c.200206095538" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/BACKUP/click_time.c.200206095608" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/BACKUP/click_time.c.200206095704" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/CLICKTIME.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/CLICKTIME.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/CLICKTIME.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/CLICKTIME.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/CLICKTIME.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/CLICKTIME.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/CLICKTIME.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/CLICKTIME.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/click_time.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/click_time.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/click_time.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_3/clicktime.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/BACKUP/SpeedClick._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/BACKUP/SpeedClick.c.200206095956" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/BACKUP/SpeedClick.c.200206100140" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/BACKUP/SpeedClick.c.200206100216" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/BACKUP/SpeedClick.c.200206100356" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/BACKUP/SpeedClick.c.200206100410" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/BACKUP/SpeedClick.c.200206100624" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/BACKUP/SpeedClick.c.200206100810" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/SPEEDCLICKTIME.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/SPEEDCLICKTIME.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/SPEEDCLICKTIME.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/SPEEDCLICKTIME.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/SPEEDCLICKTIME.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/SPEEDCLICKTIME.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/SPEEDCLICKTIME.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/SPEEDCLICKTIME.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/SpeedClick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/SpeedClick.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/SpeedClick.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_4/SpeedClickTime.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206112726" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206112826" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113220" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113254" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113314" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113402" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113428" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113440" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113452" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113558" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113628" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113644" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113706" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113746" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113754" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113812" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113824" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113848" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113914" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206113946" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114028" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114112" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114138" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114210" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114252" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114314" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114346" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114416" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114428" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114438" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114536" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114626" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114648" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114708" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114738" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206114830" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200206121124" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200207061928" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200207062022" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SnakeIndicator.c.200207062030" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SpeedClick._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/SpeedClick.c.200206101048" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/click_time._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/click_time.c.200206095748" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/iterSetFile._c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/BACKUP/iterSetFile.c.200206094526" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/SNAKEINDICATOR.SRC" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/SNAKEINDICATOR.cof" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/SNAKEINDICATOR.dbg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/SNAKEINDICATOR.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/SNAKEINDICATOR.lk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/SNAKEINDICATOR.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/SNAKEINDICATOR.mak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/SNAKEINDICATOR.mp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/SnakeIndicator.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/SnakeIndicator.lis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/SnakeIndicator.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/imagectaft/task_5/SnakeIndicator.prj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/proteus/Backup Of first.pdsbak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/proteus/Last Loaded first.pdsbak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/proteus/first.pdsprj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Microproccesorss/Lab1/proteus/first.pdsprj.DESKTOP-KDAUG9B.SS.workspace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Proteus/12022020/12022020.pdsprj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Proteus/12022020/12022020.pdsprj.DESKTOP-KDAUG9B.SS.workspace" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Proteus/12022020/Backup Of 12022020.pdsbak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Proteus/first/Backup Of first.pdsbak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Proteus/first/Last Loaded first.pdsbak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Proteus/first/first.pdsprj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Proteus/first/first.pdsprj.DESKTOP-KDAUG9B.SS.workspace" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BDLAB1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BDLAB1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BDLAB1/out/production/BDLAB1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BDLAB1/out/production/BDLAB1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BDLAB1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BDLAB1/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +788,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1XOTiaN1pqSOMQHjtkq4YmcB41n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,10 +803,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab2_BD" />
-    <property name="settings.editor.selected.configurable" value="profiler.jvm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab1_OOP" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
     <configuration name="Students" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -71,6 +847,11 @@
       <workItem from="1581422489486" duration="58000" />
       <workItem from="1581424643143" duration="3335000" />
       <workItem from="1581503620270" duration="115000" />
+      <workItem from="1582013124337" duration="1088000" />
+      <workItem from="1582017110266" duration="505000" />
+      <workItem from="1582046167896" duration="1945000" />
+      <workItem from="1582132539400" duration="3933000" />
+      <workItem from="1582209777060" duration="1110000" />
     </task>
     <servers />
   </component>
@@ -78,6 +859,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="14" width="816" height="724" key="#Intentions" timestamp="1582134261855">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="14" width="816" height="724" key="#Intentions/0.0.1366.738@0.0.1366.738" timestamp="1582134261855" />
     <state x="137" y="24" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581364702652">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -90,26 +875,26 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="234" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1581426032256" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1581503730649">
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1582216771769">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1581503730649" />
-    <state width="1323" height="90" key="GridCell.Tab.0.bottom" timestamp="1581428043618">
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1582216771769" />
+    <state width="1323" height="580" key="GridCell.Tab.0.bottom" timestamp="1582216773493">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="90" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1581428043618" />
-    <state width="1323" height="90" key="GridCell.Tab.0.center" timestamp="1581428043618">
+    <state width="1323" height="580" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582216773493" />
+    <state width="1323" height="580" key="GridCell.Tab.0.center" timestamp="1582216773492">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="90" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1581428043618" />
-    <state width="1323" height="90" key="GridCell.Tab.0.left" timestamp="1581428043618">
+    <state width="1323" height="580" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1582216773492" />
+    <state width="1323" height="580" key="GridCell.Tab.0.left" timestamp="1582216773492">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="90" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1581428043618" />
-    <state width="1323" height="90" key="GridCell.Tab.0.right" timestamp="1581428043618">
+    <state width="1323" height="580" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1582216773492" />
+    <state width="1323" height="580" key="GridCell.Tab.0.right" timestamp="1582216773493">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="90" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1581428043618" />
+    <state width="1323" height="580" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1582216773493" />
     <state width="1323" height="362" key="GridCell.Tab.1.bottom" timestamp="1581367365536">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -126,10 +911,14 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="362" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1581367365536" />
-    <state x="378" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1581422508940">
+    <state x="184" y="11" key="SettingsEditor" timestamp="1582047716362">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="378" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1581422508940" />
+    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1582047716362" />
+    <state x="378" y="193" key="com.intellij.ide.util.TipDialog" timestamp="1582017173355">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="378" y="193" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1582017173355" />
     <state x="65" y="0" key="new project wizard" timestamp="1581503734681">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

@@ -3,7 +3,6 @@ package Data;
 import java.lang.String;
 import java.util.Objects;
 
-//Data class with methods io
 public class DataStudents {
     private String id;
     private String Surname;
@@ -15,14 +14,6 @@ public class DataStudents {
     private String Departament;
     private String Course;
     private String Groupe;
-
-    public DataStudents(String surname, String nunberOfPhone, String departament, String course, String groupe) {
-        Surname = surname;
-        NunberOfPhone = nunberOfPhone;
-        Departament = departament;
-        Course = course;
-        Groupe = groupe;
-    }
 
     public DataStudents(
             String id,
@@ -47,9 +38,8 @@ public class DataStudents {
         this.Course = Course;
         this.Groupe = Groupe;
     }
-    //write set/get datas
 
-
+    //получить параметр
     public String getid(){return id;}
     public String getSurname(){return Surname;}
     public String getName(){return Name;}
@@ -61,6 +51,7 @@ public class DataStudents {
     public String getCourse(){return Course;}
     public String getGroupe(){return Groupe;}
 
+    //задать параметр
     public void setid(String id){this.id = id;}
     public void setSurname(String Surname){this.Surname = Surname;}
     public void setName(String Name){this.Name = Name;}
@@ -72,7 +63,7 @@ public class DataStudents {
     public void setCourse(String Course){this.Course = Course;}
     public void setGroupe(String Groupe){this.Groupe = Groupe;}
 
-    @Override
+    @Override//переопределяем метод toString
     public String toString() {
         return "DataStudents{" +
                 "id='" + id + '\'' +
@@ -88,7 +79,7 @@ public class DataStudents {
                 '}';
     }
 
-    @Override
+    @Override//переопределяем метод equals
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -105,7 +96,7 @@ public class DataStudents {
                 Objects.equals(Groupe, that.Groupe);
     }
 
-    @Override
+    @Override//переопределяем метод hashCode
     public int hashCode() {
         return Objects.hash(id, Surname, Name, Patronymic, Date, Address, NunberOfPhone, Departament, Course, Groupe);
     }

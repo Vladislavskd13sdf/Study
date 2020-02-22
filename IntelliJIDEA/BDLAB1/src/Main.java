@@ -9,7 +9,7 @@ import sort.Sorting;
 
 public class Main {
 
-    private int ArrayIndex(int ResultInput, int[] RandomArray) {//находим индекс едемента, число которого равно 1000+N
+    private int ArrayIndex(int ResultInput, int[] RandomArray) {//находим индекс элемента, число которого равно 1000+N
         for (int i = 0; i < RandomArray.length; i++) {
             if (RandomArray[i] == ResultInput) {
                 return i;
