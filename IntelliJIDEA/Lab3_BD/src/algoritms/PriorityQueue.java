@@ -16,35 +16,30 @@ public class PriorityQueue {//класс приорететной очереди
         if (!IsFull()) {
             boolean changeQueue = false;
             int swop = 0;
+            int indexSwop=0;
             int i =QueueSize;
-            while (Element<=Queue[i])
-                if(Queue[i]!=0)
-                {
-                    swop=Queue[i];
-                    
-                }
-            /*for(int i =0;i<QueueSize;i++)
+            for(int q = 0;q<QueueSize-1;q++)
             {
-                if(i+1>=QueueSize) break;
-                if(Element>=Queue[QueueSize-i])
+                if(IsEmpty())
                 {
-
+                    Queue[0]=Element;
                 }
-                if(IsEmpty() ||(Element<=Queue[i-1] && Element>=Queue[i]))//
-                {
-                    changeQueue=true;
-                    swop=Queue[i];
-                    Queue[i]=Element;
-                    continue;
-                }//
-                if(changeQueue)
-                {
-                    Queue[i]=swop;
+                else if(Queue[i]<=Element&&Queue[i+1]>=Element&&Queue[i]!=0){
                     swop=Queue[i+1];
-                }//
-            }*/
-            Queue[++Top] = Element;
-            //Queue = QuickSort.QuickSort(Queue);
+                    Queue[i+1]=Element;
+                    indexSwop=i+1;
+                }
+                else if(Queue[i+1]==0 && Queue[i]!=0)
+                {
+                    Queue[i+1]=Element;
+                }
+            }
+            for(int q =indexSwop+1;q<=QueueSize-1;q++)
+            {
+                Queue[q]=swop;
+                swop=Queue[q+1];
+            }
+
         } else {
             System.out.println("Queue is full!");
         }

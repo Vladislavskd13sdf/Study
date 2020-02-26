@@ -35,9 +35,7 @@ public class Main {//задание:1
     }
 
     public int GetCountStep(double min, double max, double dx) {//каличество шагов
-        int stap = 0;
-        while (min + stap * dx <= max) stap++;
-        return stap;
+        return (int) ((max+min)/dx);
     }
 
     public double[] GetArrayStap(double min, double max, double dx)//получить массив шагов
