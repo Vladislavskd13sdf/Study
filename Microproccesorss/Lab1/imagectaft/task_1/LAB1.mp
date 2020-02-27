@@ -1,6 +1,6 @@
 Project:      LAB1
-Build Number: 3
-Date:         Wed Feb 26 16:13:08 2020
+Build Number: 4
+Date:         Wed Feb 26 16:32:16 2020
 Compiler:     ICCAVR
 Version:      7.22C
 
@@ -9,40 +9,39 @@ All other addresses (including ones in FLASH) are byte addresses
 
 Area                               Addr   Size   Decimal Bytes (Attributes)
 --------------------------------   ----   ----   ------- ----- ------------
-                           idata   008C   0010 =     16. bytes (rel,con,rom)
+                           idata   008C   000C =     12. bytes (rel,con,rom)
 
        Addr  Global Symbol
       -----  --------------------------------
        008C  __idata_start
-       009C  __idata_end
+       0098  __idata_end
 
 Area                               Addr   Size   Decimal Bytes (Attributes)
 --------------------------------   ----   ----   ------- ----- ------------
-                            text   009C   023A =    570. bytes (rel,con,rom)
+                            text   0098   02B4 =    692. bytes (rel,con,rom)
 
        Addr  Global Symbol
       -----  --------------------------------
-       004E  __text_start
-       004E  __start
-       0070  _exit
-       0071  _delay
-       0086  _cout_open
-       00B9  _cout_close
-       00EC  _get_key
-       0114  _main
-       0149  push_xgsetF000
-       014E  pop_xgsetF000
-       0153  asgnblk
-       016B  __text_end
+       004C  __start
+       004C  __text_start
+       006E  _exit
+       006F  _delay
+       0084  _showData_sevenIndc
+       009C  _scan_buttons
+       00C3  _main
+       0184  push_xgsetF000
+       0189  pop_xgsetF000
+       018E  asgnblk
+       01A6  __text_end
 
 Area                               Addr   Size   Decimal Bytes (Attributes)
 --------------------------------   ----   ----   ------- ----- ------------
-                            data   0100   0010 =     16. bytes (rel,con,ram)
+                            data   0100   000C =     12. bytes (rel,con,ram)
 
        Addr  Global Symbol
       -----  --------------------------------
        0100  __data_start
-       0110  __data_end
+       010C  __data_end
 
 Area                               Start  End    Decimal Bytes (Attributes)
 --------------------------------   ----   ----   ------- ----- ------------

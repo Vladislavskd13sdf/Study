@@ -1,10 +1,12 @@
 XL
-H 1 areas 5 global symbols
+H 3 areas 8 global symbols
 M iterSetFile.c
+S mod16s Ref0000
+S div16s Ref0000
 S push_xgsetF000 Ref0000
-S lsl8 Ref0000
 S pop_xgsetF000 Ref0000
-A text size 4E flags 0
+S asgnblk Ref0000
+A text size 182 flags 0
 dbfile iterSetFile.c
 dbfile E:\Projects\Microproccesorss\Lab1\imagectaft\task_2\iterSetFile.c
 dbfunc e delay 0 fV
@@ -26,34 +28,147 @@ dbline 6 1C
 dbline 6 20
 dbline FFFFFFFE 26
 dbline 0 26
-dbfunc e main 2A fV
-dbsym r c 14 c
+dbfunc e scan_buttons 2A fc
+dbsym r d 10 c
+dbsym r t 12 c
 dbline FFFFFFFF 2A
-dbline F 2A
+dbline 10 2A
 dbline 11 2A
+dbline 12 2C
 dbline 13 30
-dbline 14 30
-dbline 15 34
-dbline 16 34
-dbline 17 3E
-dbline 19 44
-dbline 14 44
-dbline 14 46
-dbline 1B 4A
-dbline 12 4A
-dbline FFFFFFFE 4C
-dbline 0 4C
-S _main Def002A
+dbline 14 34
+dbline 15 36
+dbline 16 38
+dbline 17 3C
+dbline 18 42
+dbline 1A 46
+dbline 1A 4A
+dbline 1B 4C
+dbline 1B 50
+dbline 1C 52
+dbline 1C 56
+dbline 1D 58
+dbline 1D 5C
+dbline 1E 5E
+dbline 1E 62
+dbline 1F 64
+dbline 1F 68
+dbline 20 6A
+dbline 20 6E
+dbline 21 70
+dbline 21 74
+dbline 22 76
+dbline FFFFFFFE 76
+dbline 0 76
+dbfunc e main 78 fV
+dbsym r t 16 I
+dbsym l seg 0 A[10:10]c
+dbsym r i 14 I
+dbline FFFFFFFF 7A
+dbline 26 7A
+dbline 27 7A
+dbline 2A 90
+dbline 2B 94
+dbline 2C 98
+dbline 2D 9E
+dbline 2E A4
+dbline 2F A6
+dbline 30 A8
+dbline 32 AE
+dbline 33 AE
+dbline 34 B4
+dbline 34 BC
+dbline 35 C2
+dbline 36 CA
+dbline 37 CA
+dbline 37 D0
+dbline 37 D0
+dbline 37 D4
+dbline 38 D4
+dbline 39 D8
+dbline 3B DA
+dbline 3B E0
+dbline 3C E4
+dbline 3D E8
+dbline 3E 100
+dbline 3F 104
+dbline 40 124
+dbline 41 128
+dbline 42 150
+dbline 43 154
+dbline 45 17C
+dbline 31 17C
+dbline FFFFFFFE 17E
+dbline 0 17E
+S _main Def0078
 S _delay Def0000
+S _scan_buttons Def002A
+A data size A flags 20
+dbfile E:\Projects\Microproccesorss\Lab1\imagectaft\task_2\iterSetFile.c
+A idata size A flags 0
 T 00 00 0E 94 00 00 44 27 55 27 0B C0 66 27 77 27
-R 00 00 00 00 12 04 00 00
+R 00 00 00 00 12 04 02 00
 T 0E 00 00 00 6F 5F 7F 4F 6A 3C E3 E0 7E 07 CC F3
 R 00 00 00 00
 T 1C 00 4F 5F 5F 4F 40 17 51 07 94 F3 0C 94 00 00
-R 00 00 00 00 12 0E 02 00
-T 2A 00 8F EF 84 BB 0D C0 44 27 09 C0 01 E0 14 2F
+R 00 00 00 00 12 0E 03 00
+T 2A 00 00 27 22 24 2A BA 80 E8 82 BB 29 B3 22 BA
 R 00 00 00 00
-T 38 00 0E 94 00 00 05 BB 04 E6 10 E0 DE DF 43 95
+T 38 00 8F EF 8A BB 81 E0 80 93 64 00 20 92 65 00
+R 00 00 00 00
+T 46 00 24 FD 01 C0 01 E0 25 FD 01 C0 0F EF 26 FD
+R 00 00 00 00
+T 54 00 01 C0 00 27 27 FD 01 C0 01 E0 20 FD 01 C0
+R 00 00 00 00
+T 62 00 01 E0 21 FD 01 C0 01 E0 22 FD 01 C0 01 E0
+R 00 00 00 00
+T 70 00 23 FD 01 C0 01 E0 08 95
+R 00 00 00 00
+T 00 00 77 60
+R 00 00 02 00
+T 02 00 3E 7A
+R 00 00 02 00
+T 04 00 69 5B
+R 00 00 02 00
+T 06 00 5F 70
+R 00 00 02 00
+T 08 00 7F 7B
+R 00 00 02 00
+T 78 00 2A 97 80 E0 90 E0 FE 01 0A E0 10 E0 FA 93
+R 00 00 00 00 20 04 01 00 00 00 40 06 01 00 00 00
+T 86 00 EA 93 9A 93 8A 93 0E 94 00 00 87 E8 84 BB
+R 00 00 00 00 12 0A 04 00
+T 94 00 8F EF 8A BB 81 E0 80 93 64 00 22 24 20 92
+R 00 00 00 00
+T A2 00 65 00 2B BA 25 BA 85 E0 85 BB 67 C0 BD DF
+R 00 00 00 00
+T B0 00 60 2F 77 27 61 30 E0 E0 7E 07 19 F4 4F 5F
+R 00 00 00 00
+T BE 00 5F 4F 11 C0 6F 3F EF EF 7E 07 41 F4 40 30
+R 00 00 00 00
+T CC 00 45 07 11 F4 4F E0 57 E2 41 50 50 40 05 C0
+R 00 00 00 00
+T DA 00 60 30 67 07 11 F4 44 27 55 27 86 E0 85 BB
+R 00 00 00 00
+T E8 00 28 EE 33 E0 8A 01 0E 94 00 00 CE 01 F8 01
+R 00 00 00 00 12 0A 01 00
+T F6 00 E8 0F F9 1F 20 80 20 94 2B BA 87 E0 85 BB
+R 00 00 00 00
+T 04 01 28 EE 33 E0 8A 01 0E 94 00 00 24 E6 30 E0
+R 00 00 00 00 12 0A 00 00
+T 12 01 0E 94 00 00 CE 01 F8 01 E8 0F F9 1F 20 80
 R 00 00 00 00 12 04 01 00
-T 46 00 48 30 A8 F3 F2 CF 08 95
+T 20 01 20 94 2B BA 81 E0 85 BB 28 EE 33 E0 8A 01
+R 00 00 00 00
+T 2E 01 0E 94 00 00 24 E6 30 E0 0E 94 00 00 2A E0
+R 00 00 00 00 12 04 00 00 12 0C 00 00
+T 3C 01 30 E0 0E 94 00 00 CE 01 F8 01 E8 0F F9 1F
+R 00 00 00 00 12 06 01 00
+T 4A 01 20 80 20 94 2B BA 82 E0 85 BB 28 EE 33 E0
+R 00 00 00 00
+T 58 01 8A 01 0E 94 00 00 24 E6 30 E0 0E 94 00 00
+R 00 00 00 00 12 06 00 00 12 0E 00 00
+T 66 01 2A E0 30 E0 0E 94 00 00 CE 01 F8 01 E8 0F
+R 00 00 00 00 12 08 00 00
+T 74 01 F9 1F 20 80 20 94 2B BA 98 CF 2A 96 08 95
 R 00 00 00 00

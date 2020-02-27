@@ -18,24 +18,23 @@ public class Main {//задание:1
 
     public static void main(String[] args) {
         Main main = new Main(0, 3, 0.004, -0.5, 2);
-        main.PrintMinElementAndIndex(0,3,0.004,-0.5,2);
-        main.PrintMaxElementAndIndex(0,3,0.004,-0.5,2);
+        main.PrintMinElementAndIndex(0, 3, 0.004, -0.5, 2);
+        main.PrintMaxElementAndIndex(0, 3, 0.004, -0.5, 2);
     }
 
     public double GetY(double x, double a, double b) {//получить Y
         double delta = 0.001;//погрешность
-        if (x <= 0.7 + delta && x>0) {
+        if (x <= 0.7 + delta && x > 0) {
             return (a * pow(x, 2) * log(x));
         } else if (x > 0.7 + delta && x <= 1.4 + delta) {
             return 1;
-        } else if (x > 1.4 + delta) {
+        } else {
             return (exp(a * x) * cos(b * x));
-        } else
-            return 0;
+        }
     }
 
     public int GetCountStep(double min, double max, double dx) {//каличество шагов
-        return (int) ((max+min)/dx);
+        return (int) ((max + min) / dx);
     }
 
     public double[] GetArrayStap(double min, double max, double dx)//получить массив шагов

@@ -1,4 +1,4 @@
-#include "io8535v.h"
+#include "iom128v.h"
 #include "macros.h"
 void delay(int t)
 {
@@ -20,17 +20,12 @@ void main()
 	 	for(c=0;c<100;c++)
 		{
 		 	PORTC=0b00000001+c;
-			delay(200);
-
+			delay(50);
 		}
 		for(c=0;c<100;c++)
 		{
 		 	PORTC=0b01100100-c;
-			delay(200);
-
+			delay(50);
 		}
-    	
     }
-    
-    
 }
